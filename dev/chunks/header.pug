@@ -20,8 +20,8 @@ header.wrapper.header#header
                             Поддержка
                         a(href="#").header__feedback-link.
                             8 812 319-00-03
-                a(href="#").header__mail.
-                    sales@stackdata.net
+                a(href="#").header__mail.btn-dft.btn-dft--border.
+                    Перезвонить мне
                 a(href="#").header__search.js-show-search
                     +icon('search')
                 .header__search-wrap
@@ -34,57 +34,52 @@ header.wrapper.header#header
         .container
             a(href="#").header__mobile.js-show-menu
                 span
-            nav
+            nav.header__row
                 ul.header__menu
                     li.header__menu-item
                         a(href="#").header__menu-link.
-                            Colocation
-                    li.header__menu-item
+                            Главная
+                    li.header__menu-item.js-header-dropdown
                         a(href="#").header__menu-link.header__menu-link--dropdown.js-mobile-drop.
-                            IaaS
+                            Услуги
                         .header__drop
-                            .container
-                                ul.header__drop-menu
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Пакетные тарифы IaaS
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Удаленные рабочие места
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Виртуальный дата цент
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            152 ФЗ
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Облачное хранилище
+                            ul.header__drop-menu
+                                li.header__drop-menu-item
+                                    a(href="#").header__drop-menu-link.
+                                        Cloud
+                                    ul.header__drop-menu-list
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link Iaas
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link СХД
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link VDC
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link VDI
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link 152 ФЗ
+
+                                li.header__drop-menu-item
+                                    a(href="#").header__drop-menu-link.
+                                        Colocation
+                                    a(href="#").header__drop-menu-link.
+                                        Dedicated
+                                li.header__drop-menu-item
+                                    a(href="#").header__drop-menu-link.
+                                        Дополнительные услуги
+                                    ul.header__drop-menu-list
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link Защита от DDoS
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link Дополнительные услуги связи
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link Remote hands (Удаленные руки)
+                                        li.header__drop-menu-list-item
+                                            a(href="#").header__drop-menu-list-link Smart hands (Услуги IT-специалиста)
                     li.header__menu-item
                         a(href="#").header__menu-link.
-                            Dedicated
-                    li.header__menu-item
-                        a(href="#").header__menu-link.header__menu-link--dropdown.js-mobile-drop.
-                            Предложение
-                        .header__drop
-                            .container
-                                ul.header__drop-menu
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Пакетные тарифы IaaS
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Удаленные рабочие места
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Виртуальный дата цент
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            152 ФЗ
-                                    li.header__drop-menu-item
-                                        a(href="#").header__drop-menu-link.
-                                            Облачное хранилище
-                    li.header__menu-item
+                            Акции
+                    li.header__menu-item.js-header-dropdown
                         a(href="#").header__menu-link.header__menu-link--dropdown.js-mobile-drop.
                             О Компании
                         .header__drop
@@ -92,38 +87,40 @@ header.wrapper.header#header
                                 ul.header__drop-menu
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Пакетные тарифы IaaS
+                                            Дата-центр
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Удаленные рабочие места
+                                            Карьера
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Виртуальный дата цент
-
+                                            Партнеры
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Облачное хранилище
-                    li.header__menu-item
+                                            Клиенты
+                                    li.header__drop-menu-item
+                                        a(href="#").header__drop-menu-link.
+                                            История компании
+                    li.header__menu-item.js-header-dropdown
                         a(href="#").header__menu-link.header__menu-link--dropdown.js-mobile-drop.
-                            Пресс-Центр
+                            Информационный центр
                         .header__drop
                             .container
                                 ul.header__drop-menu
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Пакетные тарифы IaaS
+                                            Дата-центр
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Удаленные рабочие места
+                                            Карьера
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Виртуальный дата цент
+                                            Партнеры
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            152 ФЗ
+                                            Клиенты
                                     li.header__drop-menu-item
                                         a(href="#").header__drop-menu-link.
-                                            Облачное хранилище
+                                            История компании
                     li.header__menu-item
-                        a(href="#").header__menu-link.
+                        a(href="#").header__menu-link.js-mobile-drop.
                             Контакты

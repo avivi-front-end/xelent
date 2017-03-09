@@ -61,7 +61,7 @@ function reload() {
 }
 
 gulp.task('pug', function() {
-    gulp.src('./dev/templates/photo-preview.pug')
+    gulp.src('./dev/templates/*.pug')
         .pipe(plumber({}))
         .pipe(pug({
             pretty: true

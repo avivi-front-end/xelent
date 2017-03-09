@@ -1,8 +1,13 @@
 .footer {
     // padding-top: 20px;
     &__wrapper {
-        padding-top: 11px;
-        padding-bottom: 18px;
+        padding-top: 26px;
+        padding-bottom: 55px;
+        background-color: $brownish-grey;
+        @media (max-width: $screen-sm-max){
+            padding-bottom: 20px;
+            padding-top: 15px;
+        }
     }
 
     &__logo {
@@ -21,7 +26,7 @@
         font-family: $robotomed;
         font-size: 18px;
         line-height: 1.39;
-        color: $brownish-grey;
+        color: #fff;
         text-decoration: none;
         // display: block;
         float: left;
@@ -37,7 +42,7 @@
     }
 
     &__list-item {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     &__item {
@@ -45,7 +50,7 @@
         font-family: $robotolight;
         font-size: 14px;
         line-height: 1.43;
-        color: $brownish-grey;
+        color: $pinkish-grey;
         text-decoration: none;
         transition: 0.3s ease;
 
@@ -57,27 +62,26 @@
 }
 
 .copyright {
-    border-top: 1px solid $white-two;
-    padding: 12px 0;
-
-
+    // border-top: 1px solid $white-two;
+    padding: 8px 0 3px;
+    background-color: #404040;
 
     &__link {
         font-size: 14px;
         line-height: 1.43;
-        color: $pinkish-grey;
+        color: $warm-grey;
         text-decoration: none;
         display: inline-block;
-        margin-top: 21px;
+        margin-top: 12px;
     }
 
     &__made-by {
         font-size: 14px;
         line-height: 1.43;
-        color: $pinkish-grey;
+        color: $warm-grey;
         text-decoration: none;
         display: inline-block;
-        margin-top: 13px;
+        margin-top: 8px;
 
         .icon-wrap {
             display: inline-block;

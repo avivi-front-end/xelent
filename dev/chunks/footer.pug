@@ -4,43 +4,42 @@ footer.wrapper.footer#footer
             .row
                 .col-md-3.clearfix
                     a(href=""  ).footer__logo
-                        img(src="images/xelent.svg" width="180" height="55" alt="logo")
-                .col-md-3.clearfix
+                        img(src="images/footer-logo.svg" width="180" height="55" alt="logo")
+                .col-md-2.clearfix
                     .clearfix
                         a(href="#").footer__title.
-                            Colocation
-                        a(href="#").footer__title.
-                            IaaS
-                    - var list1 = ['Пакетные тарифы IaaS','Удаленные рабочие места','Виртуальный дата центр','152 ФЗ','Облачное хранилище']
+                            О Компании
+                    - var list1 = ['Дата-центр','Карьера','Партнеры','Клиенты','История компании']
                     ul.footer__list
                         each list1item in list1
                             li.footer__list-item
                                 a(href="#").footer__item= list1item
+                .col-md-2.clearfix
                     .clearfix
                         a(href="#").footer__title.
-                            Dedicated
-                .col-md-3.clearfix
-                    .clearfix
-                        a(href="#").footer__title.
-                            Предложение
-                    - var list2 = ['Агентская программма','Акции','Отраслевые решения','Дополнительные услуги']
+                            Услуги
+                    - var list2 = ['Cloud','Dedicated','Colocation']
                     ul.footer__list
                         each list2item in list2
                             li.footer__list-item
                                 a(href="#").footer__item= list2item
+                .col-md-3.clearfix
                     .clearfix
                         a(href="#").footer__title.
-                            Пресс-Центр
-                    - var list3 = ['Новости','Блог','Брендбук','Фото','Видео','Документы']
+                            Информационный-Центр
+
+
+                    - var list3 = ['Новости','Блог','Фото','Видео','Документы',' Агентская программа']
                     ul.footer__list
                         each list3item in list3
                             li.footer__list-item
                                 a(href="#").footer__item= list3item
-                .col-md-3.clearfix
+
+                .col-md-2.clearfix
                     .clearfix
                         a(href="#").footer__title.
-                            О Компании
-                    - var list4 = ['Дата-центр','Карьера','Партнеры','Клиенты','История компании','Руководство']
+                            Акции
+                    - var list4 = ['Предложение 1','Предложение 2','Предложение 3','Предложение 4']
                     ul.footer__list
                         each list4item in list4
                             li.footer__list-item
@@ -48,6 +47,7 @@ footer.wrapper.footer#footer
                     .clearfix
                         a(href="#").footer__title.
                             Контакты
+
     .copyright
         .container
             .row
