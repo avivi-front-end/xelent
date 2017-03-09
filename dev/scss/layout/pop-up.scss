@@ -1,0 +1,72 @@
+.pop-up {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 39px 0 rgba(0, 0, 0, 0.26);
+    border: solid 1px #eaeaea;
+    width: 750px;
+    z-index: 50;
+    padding: 69px 15px 24px;
+    @media (max-width: $screen-sm-max) {
+        width: 90%;
+        padding-bottom: 0;
+    }
+
+    &__title {
+        margin-bottom: 66px;
+        @media (max-width: $screen-sm-max) {
+            margin-bottom: 30px;
+            }
+    }
+
+    &__wrapper {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    &__submit-wrap {
+        padding-top: 20px;
+        @media (max-width: $screen-sm-max) {
+            padding-top: 0;
+        }
+    }
+
+    &__close {
+        width: 19px;
+        height: 19px;
+        @include position(absolute, 30px 30px null null);
+        z-index: 1;
+
+        svg {
+            width: 100%;
+            height: 100%;
+            fill: #dadada;
+            transition: fill 0.3s ease;
+        }
+
+        &:hover {
+            svg {
+                fill: #ed1c24;
+                transition: fill 0.3s ease;
+            }
+        }
+    }
+
+    .form-group {
+        margin-bottom: 50px;
+    }
+
+    input {
+        -webkit-appearance: none;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.fancybox-close-small {
+    display: none;
+}
+
+.fancybox-bg{
+    opacity: 0.5;
+    background: #000;
+
+}

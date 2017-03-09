@@ -1,0 +1,33 @@
+.section-dft.section-dft--border
+    .container
+        ul.breadcrumbs
+            li
+                a(href="#").breadcrumbs__link Главная
+            li
+                a(href="#").breadcrumbs__link Информационный центр
+            li
+                a(href="#").breadcrumbs__link Фото
+    .container
+        h1 Международный Гранд Форум "Бизнес и ИТ" в Минске
+    .photo-gallery__wrapper.js-slider-wrapper
+        .photo-gallery__photo-bg.photo-gallery__photo-bg--left(style="background: url(upload/gallery-left.jpg) no-repeat center center;background-size:cover;")
+        .photo-gallery__photo-bg.photo-gallery__photo-bg--right(style="background: url(upload/gallery-right.jpg) no-repeat center center;background-size:cover;")
+        .container
+            a(href="#" data-slider="slickPrev").photo-gallery__arrow.photo-gallery__arrow--left.js-preview-slider-arrows
+                +icon('left')
+            a(href="#" data-slider="slickNext").photo-gallery__arrow.photo-gallery__arrow--right.js-preview-slider-arrows
+                +icon('right')
+            .row
+                .col-xl-10.col-xl-offset-1
+                    .photo-gallery__main.js-photo-preview-slider
+                        - for (var i=0; i < 15 ;i++)
+                            .photo-gallery__slide
+                                img(src="upload/photo-main.jpg" srcset="upload/photo-main@2x.jpg 2x,upload/photo-main@3x.jpg 3x" alt="")
+    .photo-preview
+        .container
+            .row.photo-preview__row
+                .photo-preview__list.js-photo-preview
+                    .photo-preview__inner
+                        - for (var i=0; i < 15 ;i++)
+                            a(href="#").photo-preview__link
+                                img(src="upload/photo-main.jpg")

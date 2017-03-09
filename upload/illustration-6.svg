@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="102px" viewBox="0 0 126 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>E7490AEC-888A-4320-A0C6-E69C1D4A342B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Ready-To-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-1047.000000, -1377.000000)">
+            <g id="Услуги" transform="translate(150.000000, 695.000000)">
+                <g id="6" transform="translate(780.000000, 630.000000)">
+                    <g id="illustration_6" transform="translate(119.000000, 54.000000)">
+                        <path d="M43,26 C43,16.0588745 51.0588745,8 61,8" id="Shape" stroke="#DADADA" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M28,69 L16,69 C7.04790458,69 8.73852961e-16,61.9468078 0,53 C-1.0923162e-15,44.5457007 7.04790458,37.4925085 16,37 L16,37 C14.8228604,31.9100987 16.5369773,25.98079 21,22 C24.9463777,18.0905492 30.9693105,16.7604598 36,19 C39.5797983,7.5776235 49.6175981,-6.55881423e-16 61,0 C72.4611115,6.55881423e-16 82.4989114,7.5776235 86,19 C91.0993178,16.7985672 97.092022,18.1462094 101,22 C105.454836,26.0234809 107.161498,31.928181 106,37 L106,37 C114.952095,37.4925085 122,44.5457007 122,53 C122,61.9468078 114.952095,69 106,69 L94,69" id="Shape" stroke="#DADADA" stroke-width="4" stroke-linejoin="round"></path>
+                        <rect id="Rectangle-path" fill="#DADADA" fill-rule="nonzero" x="45.2580645" y="74.4705882" width="31.483871" height="23.5294118"></rect>
+                        <path d="M43,43 L43,59 C43,60.1045695 43.8954305,61 45,61 L53,61 L53,43 L43,43 Z" id="Shape" fill="#ED1C24" fill-rule="nonzero"></path>
+                        <path d="M37.3870968,43.0980392 L53.1290323,43.0980392" id="Shape" stroke="#646464" stroke-width="3.92156863"></path>
+                        <path d="M76.2181818,43 L80.1454545,43 L88,51 L88,94 C88,96.2411187 86.2730983,98 84.0727273,98 L37.9272727,98 C35.7269017,98 34,96.2411187 34,94 L34,47 C34,44.7588813 35.7269017,43 37.9272727,43" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <polygon id="Rectangle-path" stroke="#646464" stroke-width="4" points="46 74 76 74 76 98 46 98"></polygon>
+                        <path d="M38,90 L42,90" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M80,90 L84,90" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M51,82 L71,82" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M51,90 L71,90" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M77,57 C77,58.1045695 76.1045695,59 75,59 L53,59 L53,39 L77,39 L77,57 Z" id="Shape" stroke="#646464" stroke-width="4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

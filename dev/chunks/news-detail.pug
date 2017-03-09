@@ -1,0 +1,91 @@
+.section-dft
+    .container
+        ul.breadcrumbs
+            li
+                a(href="#").breadcrumbs__link Главная
+            li
+                a(href="#").breadcrumbs__link Пресс-Центр
+            li
+                a(href="#").breadcrumbs__link Новости
+            li
+                a(href="#").breadcrumbs__link От факапа до бэкапа: истории ИТ...
+    .container
+        h1 От факапа до бэкапа: истории ИТ-компаний, потерявших данные
+    .news-detail
+        .container
+            .news__info-wrap.clearfix
+                .news__info-date.
+                    18 февраля 2017
+                .news__info-author.
+                    Александр Александров
+            .news-detail__top-image
+                img( src="upload/image.jpg" srcset="upload/image@2x.jpg 2x, upload/image@3x.jpg 3x" alt="news detial image")
+            .news-detail__body
+                p.
+                    Большинство компаний понимают важность создания бэкапов. Но вот беда — представление о том, что должна собой представлять стратегия резервирования данных, имеет не так много компаний. В результате они теряют информацию, клиентов, а значит, и деньги. Еще в 2014 году эксперты информировали о том, что бизнес теряет около $1.7 триллиона долларов в год из-за безвозвратных потерь ценнейших данных, которые почему-то не резервировались. Сейчас этот показатель вырос, поскольку часовой вынужденный простой дата-центра обходится оператору в $50 000 — $80 000. Два года назад часовой простой влек за собой убытки в $40 000 — $60 000.
+                p.
+                    Каждый год эта сумма растет, поскольку ценность данных постепенно увеличивается. Да и не только в информации дело — ведь и обычный простой оборудования из-за разного рода проблем больно бьет по кошельку как самой компании, которой принадлежит инфраструктура, так и ее клиентов.
+                p.
+                    Только в первом полугодии 2016 года было утеряно или похищено в результате осуществления кибератак злоумышленниками 554 миллиона записей. Наиболее распространенная цель взлома — похищение личных данных пользователей. В США наиболее атакуемой сферой оказалось здравоохранение. При этом правительственные органы в первом полугодии 2016 года потеряли максимальное количество данных (речь идет об утерянных или похищенных данных).
+            .news__filter-list.news__filter-list--detail.clearfix
+                - var list = ['Сервер','Intel','DDoS','SSL','Хостинг']
+                each listItem in list
+                    a(href="#").news__filter-link= listItem
+            .sharing
+                .sharing__title.
+                    Поделиться
+                a(href="#").socials__social-link.socials__social-link--facebook
+                    span
+                        +icon('facebook')
+
+                a(href="#").socials__social-link.socials__social-link--g
+                    span
+                        +icon('g')
+                a(href="#").socials__social-link.socials__social-link--vk
+                    span
+                        +icon('vk')        
+.section-dft
+    .readmore
+        .container
+            h3.readmore__title.text-center  Что ещё почитать
+            .row
+                .col-lg-4.col-md-6.news__item.js-height
+                    .news__image-wrap
+                        img(src="upload/rectangle-5.jpg"   srcset="upload/rectangle-5@2x.jpg 2x,     upload/rectangle-5@3x.jpg 3x")
+                    .news__inner-wrapper
+                        .news__info-wrap.clearfix
+                            .news__info-date.
+                                18 февраля 2017
+                            .news__info-author.
+                                Александр Александров
+                        a(href="#").news__info-name.
+                            Конференция ActiveRetail 2017: как «облачные» продукты помогут белорусской торговле?
+                        .news__info-preview.
+                            Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов…
+                .col-lg-4.col-md-6.news__item.js-height
+                    .news__image-wrap
+                        img(src="upload/rectangle-5_2.jpg"   srcset="upload/rectangle-5_2@2x.jpg 2x,     upload/rectangle-5_2@3x.jpg 3x")
+                    .news__inner-wrapper
+                        .news__info-wrap.clearfix
+                            .news__info-date.
+                                18 февраля 2017
+                            .news__info-author.
+                                Александр Александров
+                        a(href="#").news__info-name.
+                            Мы расширили линейку тарифов Битрикс-хостинга!
+                        .news__info-preview.
+                            Теперь к трём тарифам «облачного» BitrixCloud добавилось два тарифа BitrixHost – недорогого, но надежного и производительного виртуального хостинга для проектов на платформе Битрикс…
+
+                .col-lg-4.col-md-6.news__item.js-height
+                    .news__image-wrap
+                        img(src="upload/rectangle-5_3.jpg"   srcset="upload/rectangle-5_3@2x.jpg 2x,     upload/rectangle-5_3@3x.jpg 3x")
+                    .news__inner-wrapper
+                        .news__info-wrap.clearfix
+                            .news__info-date.
+                                18 февраля 2017
+                            .news__info-author.
+                                Александр Александров
+                        a(href="#").news__info-name.
+                            Мастер-класс Xelent по 1С: почему франчайзи стоит выбрать «облако»
+                        .news__info-preview.
+                            24 ноября 2016 года в аудитории минской «Академии Webcom» прошёл очередной мастер-класс. На этот раз мы собрали представителей российского 1С-франчайзи…

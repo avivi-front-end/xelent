@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ie-detector.js"></script>
+    <script src="js/modernizr.js"></script><!--[if lt IE 7]>  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+  </head>
+  <div class="page-wrapper" id="page-wrapper">
+    <header class="wrapper header" id="header">
+      <div class="header__top-wrap">
+        <div class="container">
+          <div class="header__top-wrapper clearfix"><a class="header__logo" href="index.html"><img src="images/xelent.svg" width="180" height="55" alt="logo"></a>
+            <div class="header__feedback-wrap clearfix">
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Санкт-Петербург</div><a class="header__feedback-link" href="#">+7 812 319-00-04</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Москва</div><a class="header__feedback-link" href="#">8 495 980-60-09</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Поддержка</div><a class="header__feedback-link" href="#">8 812 319-00-03</a>
+              </div>
+            </div><a class="header__mail" href="#">sales@stackdata.net</a><a class="header__search js-show-search" href="#">
+              <svg class="icon icon-search ">
+                <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+              </svg></a>
+            <div class="header__search-wrap">
+              <button class="header__search-submit" type="submit">
+                <svg class="icon icon-search ">
+                  <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <input class="header__search-input" type="text" placeholder="Поиск"><a class="header__search-wrap-close js-close-search" href="#">
+                <svg class="icon icon-close ">
+                  <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom-wrap">
+        <div class="container"><a class="header__mobile js-show-menu" href="#"><span></span></a>
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Colocation</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">IaaS</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Dedicated</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Предложение</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">О Компании</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">
+                          Виртуальный дата цент
+                          </a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Пресс-Центр</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="page-body" id="page-body">
+      <div class="container">
+        <h1>H1-Чукча в чуме чистит чуни.</h1>
+        <h2>H2-Чукча в чуме чистит чуни.</h2>
+        <h3>H3-Чукча в чуме чистит чуни.</h3>
+        <h4>H4-Чукча в чуме чистит чуни.</h4>
+        <h5>H5-Чукча в чуме чистит чуни.</h5>
+        <h6>H6-Чукча в чуме чистит чуни.</h6>
+        <p>В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.</p>
+        <p>Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону ((812)-390-0003).</p>
+        <p>Постоянно присутствующие на площадке дежурные смены специалистов по инсталляции обеспечивают запуск в работу оборудования заказчика не позднее, чем через 24 часа.</p>
+        <div class="row">
+          <div class="col-md-8">
+            <ul class="list-dft">
+              <li>дата-центр;</li>
+              <li>комфортный для работы административно-бытовой корпус, соединённый переходами с дата-центром;</li>
+              <li>складские помещения со специально оборудованными погрузочно-разгрузочными зонами;</li>
+              <li>собственная охраняемая парковка.</li>
+            </ul>
+          </div>
+        </div>
+        <p>В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.</p>
+        <div class="row">
+          <div class="col-md-8">
+            <ol class="order-list-dft">
+              <li>дата-центр;</li>
+              <li>комфортный для работы административно-бытовой корпус, соединённый переходами с дата-центром;</li>
+              <li>складские помещения со специально оборудованными погрузочно-разгрузочными зонами;</li>
+              <li>
+                собственная охраняемая парковка.
+                
+              </li>
+            </ol>
+          </div>
+        </div>
+        <p>В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.</p>
+        <div class="row">
+          <div class="col-md-10">
+            <blockquote>
+              <p>Это цитата. В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 clearfix">
+            <div class="clearfix"><a class="footer__title" href="#">IaaS</a></div>
+            <ul class="footer__list">
+              <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+              <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+              <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+              <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+              <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6"><a class="info-link" href="#">Подробнее о услуге</a>
+            <ul class="breadcrumbs">
+              <li><a class="breadcrumbs__link" href="#">Главная</a></li>
+              <li><a class="breadcrumbs__link" href="#">Пресс-Центр</a></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <input class="disabled" type="text" placeholder="Ваше имя" value="Отключен" readonly>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Ваше имя">
+            </div>
+            <div class="form-group">
+              <label class="form-group__label">Готов для ввода</label>
+              <input type="text" placeholder="Сюда вводить текст">
+              <label class="form-group__helper">Тут можно будет подсказать что-нибудь.</label>
+            </div>
+            <div class="form-group">
+              <label class="form-group__label error">Ошибка</label>
+              <input type="text" placeholder="Ваше имя">
+              <label class="error">Тут можно будет подсказать что-нибудь.</label>
+            </div>
+          </div>
+          <div class="col-md-6 col-md-offset-2">
+            <div class="clearfix">
+              <div class="testing__params-slider">
+                <div class="js-params-slider range-slider" data-value="2" data-min="0" data-max="10" data-step="1"></div>
+              </div>
+            </div><br><a class="btn-dft disabled">Недоступно</a><br><br><a class="btn-dft" href="#">Активная</a><br><br><a class="btn-dft btn-dft--border" href="#">Хочу у вас работать!</a>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <label class="input-wrapper">
+              <input type="checkbox"><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (активная)</span>
+            </label>
+            <label class="input-wrapper">
+              <input type="checkbox" disabled><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (неактивная)</span>
+            </label>
+            <label class="input-wrapper">
+              <input type="checkbox" checked><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (выбрано)</span>
+            </label>
+            <label class="input-wrapper">
+              <input type="checkbox" disabled checked><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (выбрано неактивная)</span>
+            </label>
+          </div>
+          <div class="col-md-6">
+            <label class="input-wrapper">
+              <input type="radio"><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (активная)</span>
+            </label>
+            <label class="input-wrapper">
+              <input type="radio" disabled><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (неактивная)</span>
+            </label>
+            <label class="input-wrapper">
+              <input type="radio" checked><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (выбрано)</span>
+            </label>
+            <label class="input-wrapper">
+              <input type="radio" disabled checked><span class="input-wrapper__icon"></span><span class="input-wrapper__name">Check-box Описание (выбрано неактивная)</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Значение</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+                <th>Колонка 4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Сервер 1</td>
+                <td>0,025</td>
+                <td>1,368</td>
+                <td>Январь</td>
+              </tr>
+              <tr>
+                <td>Сервер 1</td>
+                <td>0,025</td>
+                <td>1,368</td>
+                <td>Январь</td>
+              </tr>
+              <tr>
+                <td>Сервер 1</td>
+                <td>0,025</td>
+                <td>1,368</td>
+                <td>Январь</td>
+              </tr>
+              <tr>
+                <td>Сервер 1</td>
+                <td>0,025</td>
+                <td>1,368</td>
+                <td>Январь</td>
+              </tr>
+              <tr>
+                <td>Сервер 1</td>
+                <td>0,025</td>
+                <td>1,368</td>
+                <td>Январь</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="pagination">
+          <li class="pagination__nav-btn prev"><a href="#">
+              <svg class="icon icon-prev ">
+                <use xlink:href="images/svgsprite/sprite.svg#prev"></use>
+              </svg></a></li>
+          <li><a href="#">1</a></li>
+          <li><a class="active" href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">...</a></li>
+          <li><a href="#">89</a></li>
+          <li><a href="#">90</a></li>
+          <li><a href="#">91</a></li>
+          <li class="pagination__nav-btn next"><a href="#">
+              <svg class="icon icon-next ">
+                <use xlink:href="images/svgsprite/sprite.svg#next"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-md-6">
+            <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                  <svg class="icon icon-facebook ">
+                    <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                  </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                  <svg class="icon icon-tw ">
+                    <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                  </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                  <svg class="icon icon-g ">
+                    <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                  </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                  <svg class="icon icon-vk ">
+                    <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                  </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                  <svg class="icon icon-ok ">
+                    <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                  </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                  <svg class="icon icon-habr ">
+                    <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="wrapper footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 clearfix"><a class="footer__logo" href=""><img src="images/xelent.svg" width="180" height="55" alt="logo"></a></div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Colocation</a><a class="footer__title" href="#">IaaS</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Dedicated</a></div>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Предложение</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Агентская программма</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Акции</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Отраслевые решения</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Дополнительные услуги</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Пресс-Центр</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Новости</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Блог</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Брендбук</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Фото</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Видео</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Документы</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">О Компании</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Дата-центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Карьера</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Партнеры</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Клиенты</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">История компании</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Руководство</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Контакты</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-xl-push-4 col-md-push-3">
+              <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                    <svg class="icon icon-tw ">
+                      <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                    <svg class="icon icon-g ">
+                      <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                    <svg class="icon icon-ok ">
+                      <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                    <svg class="icon icon-habr ">
+                      <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                    </svg></span></a></div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-xl-pull-4 col-md-pull-6"><a class="copyright__link" href="#">© 2011– 2017 Stackdata.net</a></div>
+            <div class="col-xl-4 col-md-3 text-md-right"><a class="copyright__made-by" href="#">Разработано в<span class="icon-wrap">
+                  <svg class="icon icon-bquadro ">
+                    <use xlink:href="images/svgsprite/sprite.svg#bquadro"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="28px" viewBox="0 0 15 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g>
+        <g id="etalon" transform="translate(-838.000000, -2513.000000)">
+            <g id="arrow" transform="translate(735.000000, 2513.000000)">
+                <g id="hover" transform="translate(103.000000, 0.000000)">
+                    <path d="M1.36363636,-1.13686838e-13 L15,14 L13.6363636,15.4 L0,1.4 L1.36363636,-1.13686838e-13 Z M12.2727273,14 L13.6363636,15.4 L1.36363636,28 L0,26.6 L12.2727273,14 Z" id="left" transform="translate(7.500000, 14.000000) scale(-1, 1) translate(-7.500000, -14.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

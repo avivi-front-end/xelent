@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g>
+        <g id="etalon" transform="translate(-845.000000, -3904.000000)">
+            <g id="paging" transform="translate(150.000000, 3895.000000)">
+                <g id="arrow-l-hover" transform="translate(660.000000, 0.000000)">
+                    <polygon id="Combined-Shape" transform="translate(47.239592, 21.500000) scale(-1, 1) translate(-47.239592, -21.500000) " points="59 23 59 20 41.2218254 20 49.6213203 11.6005051 47.5 9.47918472 35.4791847 21.5 47.5 33.5208153 49.6213203 31.3994949 41.2218254 23"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

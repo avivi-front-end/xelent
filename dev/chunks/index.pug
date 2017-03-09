@@ -1,0 +1,407 @@
+.top-slider.js-slider-wrapper
+    .top-slider__slider-wrapper.container
+        .top-slider__arrows
+            a(href="#" data-slider="slickPrev").top-slider__arrow.top-slider__arrow--left.js-arrows
+                +icon('left')
+            a(href="#" data-slider="slickNext").top-slider__arrow.top-slider__arrow--right.js-arrows
+                +icon('right')
+    .top-slider__slider.js-slider.index-slider
+        - for (var x = 0; x < 5; x++)
+            .top-slider__slider-item
+                .top-slider__bg-img
+                    img(src="upload/shutterstock-92065760.jpg" srcset="upload/shutterstock-92065760@2x.jpg 2x" alt="main image" )
+                    .top-slider__ie-fallback(style="background:url(upload/shutterstock-92065760.jpg) center center; background-size:cover;")
+                .top-slider__slide-wrap
+                    .container
+                        .row
+                            .col-xl-8.col-xl-offset-2
+
+                                .top-slider__slider-title.
+                                    Мы помогаем своим клиентам уверенно строить бизнес.
+                                .top-slider__slider-text.
+                                    SDN предоставляет своим клиентам широкие возможности по организации и эксплуатации качественной инфраструктуры, отвечающей требованиям времени и бизнес-задачам конкретной организации.
+.services
+    .services__title-wrap.container
+        .title-dft.
+            Услуги
+    .container
+        .row
+            .col-lg-4.col-md-6.js-height.services__outer-wrap
+                .services__item
+                    .services__image-wrap
+                        img(src="upload/illustration-1.svg" alt="service image").services__image
+                    .services__title.
+                        Размещение оборудования (colacation)
+                    .services__text.
+                        Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+            .col-lg-4.col-md-6.js-height.services__outer-wrap
+                .services__item
+                    .services__image-wrap
+                        img(src="upload/illustration-2.svg" alt="service image").services__image
+                    .services__title.
+                        Аренда оборудования
+                    .services__text.
+                        Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+            .col-lg-4.col-md-6.js-height.services__outer-wrap
+                .services__item
+                    .services__image-wrap
+                        img(src="upload/illustration-3.svg" alt="service image").services__image
+                    .services__title.
+                        vDS/vPS
+                    .services__text.
+                        Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+
+
+
+            .col-lg-4.col-md-6.js-height.services__outer-wrap
+                .services__item
+                    .services__image-wrap
+                        img(src="upload/illustration-4.svg" alt="service image").services__image
+                    .services__title.
+                        Удаленные рабочие места
+                    .services__text.
+                        Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+            .col-lg-4.col-md-6.js-height.services__outer-wrap
+                .services__item
+                    .services__image-wrap
+                        img(src="upload/illustration-5.svg" alt="service image").services__image
+                    .services__title.
+                        Виртуальный ДЦ
+                    .services__text.
+                        Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+            .col-lg-4.col-md-6.js-height.services__outer-wrap
+                .services__item
+                    .services__image-wrap
+                        img(src="upload/illustration-6.svg" alt="service image").services__image
+                    .services__title.
+                        Облачное хранилище
+                    .services__text.
+                        Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+.testing
+    .container
+        .testing__title.title-dft.
+            Тестируйте бесплатно
+        .row
+            .col-lg-10.col-lg-offset-1
+                .testing__sub-title.
+                    Клиенты Stack Data Network имеют возможность оперативно реагировать на изменение бизнес-обстановки, формируя необходимый и достаточный для себя комплекс технологических, проектных, административных услуг по среднерыночным ценам.
+    .container
+        .testing__tabs-head
+            .row
+                .col-lg-10.col-lg-offset-1
+                    .testing__tabs-head-wrap.clearfix
+                        a(href="#testing-1").js-testing-tab.testing__tab-link.active vDC
+                        a(href="#testing-2").js-testing-tab.testing__tab-link vDC/PS
+                        a(href="#testing-3").js-testing-tab.testing__tab-link Storage
+                        a(href="#testing-4").js-testing-tab.testing__tab-link Услуга 4
+                        a(href="#testing-5").js-testing-tab.testing__tab-link Услуга 5
+    .container
+        .testing__tabs-body
+            .testing__tabs-item#testing-1.active
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Процессор
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider-cpu.range-slider(data-value="0" data-min="0" data-max="5" data-step="1")
+                                .testing__params-value
+                                    span
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Оперативная память
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="2" data-min="0" data-max="10" data-step="1")
+                                .testing__params-value.
+                                    <span></span> Gb
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Жесткий диск
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="50" data-min="0" data-max="300" data-step="25")
+                                .testing__params-value.
+                                    <span></span> Gb
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Отказоустойчивое дисковое хранилище SAS
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10" data-min="0" data-max="100" data-step="10")
+                                .testing__params-value.
+                                    <span></span> Gb
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Отказоустойчивое дисковое хранилище SATA
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10" data-min="0" data-max="100" data-step="10")
+                                .testing__params-value.
+                                    <span></span> Gb
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Внешний IP-адрес (IPv4+IPv6)
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10" data-min="0" data-max="100" data-step="10")
+                                .testing__params-value.
+                                    <span></span> Gb
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Автоматическое резервное копирование
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10000" data-min="0" data-max="65350" data-step="5000")
+                                .testing__params-value.
+                                    <span></span> Gb
+                .testing__btns-wrap.text-center
+                    a(href="#").btn-dft Заказать
+                    a(href="#").testing__info-link Подробнее о услуге
+            .testing__tabs-item#testing-2
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Автоматическое
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10000" data-min="0" data-max="65350" data-step="5000")
+                                .testing__params-value.
+                                    <span></span> Gb
+            .testing__tabs-item#testing-3
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Автоматическое копирование
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10000" data-min="0" data-max="65350" data-step="5000")
+                                .testing__params-value.
+                                    <span></span> Gb
+            .testing__tabs-item#testing-4
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Автоматическое резервное копирование
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10000" data-min="0" data-max="65350" data-step="5000")
+                                .testing__params-value.
+                                    <span></span> Gb
+            .testing__tabs-item#testing-5
+                .testing__tabs-params
+                    .row.testing__tabs-row
+                        .col-md-3.col-md-offset-1
+                            .testing__params-name.text-right.
+                                Внешний IP-адрес (IPv4+IPv6)
+                        .col-md-8
+                            .testing__slider-wrap
+                                .testing__params-slider
+                                    .js-params-slider.range-slider(data-value="10000" data-min="0" data-max="65350" data-step="5000")
+                                .testing__params-value.
+                                    <span></span> Gb
+.why-us
+    .container
+        .title-dft.why-us__main-title.
+            Почему мы
+    .container
+        .row
+            .why-us__item.clearfix
+                .col-xl-2.col-xl-offset-2.col-lg-3.col-md-4
+                    .why-us__image-wrap
+                        img(src="upload/illustration-7.svg")
+                .col-xl-6.col-lg-9.col-md-8
+                    .why-us__title.
+                        Бесперебойность
+                    .why-us__text
+                        p.
+                            Ни одного падения за три года, многократное резервирование по энергоснабжению и хладообеспечению, а также по каналам связи. Основные технические решения для нашего дата-центра были разработаны в тесном сотрудничестве.
+            .why-us__item.clearfix
+                .col-xl-2.col-xl-offset-2.col-lg-3.col-md-4
+                    .why-us__image-wrap
+                        img(src="upload/illustration-8.svg")
+                .col-xl-6.col-lg-9.col-md-8
+                    .why-us__title.
+                        Безопасность
+                    .why-us__text
+                        p.
+                            Cертификат PCI DSS, позволяющий хранить данные финансовых организаций, включая банковские карты, 5 периметров безопасности, СКУД, более 200 видеокамер, зонирование размещения оборудования клиентов - оборудование недоступно ни для кого кроме заказчика.
+            .why-us__item.clearfix
+                .col-xl-2.col-xl-offset-2.col-lg-3.col-md-4
+                    .why-us__image-wrap
+                        img(src="upload/illustration-9.svg")
+                .col-xl-6.col-lg-9.col-md-8
+                    .why-us__title.
+                        Экономия
+                    .why-us__text
+                        p.
+                            Pа счет оборудования последнего поколения, позволяющего использовать все климатические преимущества - низкая цена за электричество, предсказуемое ценообразование, целый ряд решений, которые сконфигурированы для бизнесов различного масштаба.
+
+            .why-us__item.clearfix
+                .col-xl-2.col-xl-offset-2.col-lg-3.col-md-4
+                    .why-us__image-wrap
+                        img(src="upload/illustration-10.svg")
+                .col-xl-6.col-lg-9.col-md-8
+                    .why-us__title.
+                        Масштабируемость
+                    .why-us__text
+                        p.
+                            Циркуляцию внутреннего и наружного воздуха обеспечивают по два вентилятора промышленного класса. Тепловые насосы также выполнены в виде двух параллельных контуров, так что при выходе из строя одного из них сохраняется половина охлаждающей способности.
+            .why-us__item.clearfix
+                .col-xl-2.col-xl-offset-2.col-lg-3.col-md-4
+                    .why-us__image-wrap
+                        img(src="upload/illustration-11.svg")
+                .col-xl-6.col-lg-9.col-md-8
+                    .why-us__title.
+                        Комфорт
+                    .why-us__text
+                        p.
+                            Доступ и техническая поддержка 24/7/365, удобная парковка, офисы для дежурства и работы специалистов заказчика прямо на месте, помощь в переезде, услуги с удаленным управлением нашим техническим персоналом.
+
+.about-us
+    .about-us__banner
+        .about-us__bg
+            img(src="upload/bitmap_8.jpg" srcset="upload/bitmap_8@2x.jpg 2x, upload/bitmap_8@3x.jpg 3x")
+            .about-us__ie-fallback(style="background:url(upload/bitmap_8.jpg) center center; background-size: cover;")
+        .container.about-us__container
+            .about-us__title.
+                О нашем центре
+            .about-us__sub-title.
+                г. Санкт-Петербург
+            .row
+                .col-lg-4.col-lg-offset-2.col-md-6.about-us__item
+                    .about-us__item-title.
+                        1 400
+                    .about-us__item-sub-title.
+                        стойко-мест
+                .col-lg-4.col-md-6.about-us__item
+                    .about-us__item-title.
+                        12 МВт
+                    .about-us__item-sub-title.
+                        Мощность
+    .container
+        .row
+            .col-md-10.col-md-offset-1
+                .about-us__text-wrapper
+                    .about-us__text-item
+                        .about-us__text-title.
+                            Уровень надежности
+                        .about-us__text
+                            p.
+                                Tier 3; сертификаты ISO 27001 и ISO 9001
+                    .about-us__text-item
+                        .about-us__text-title.
+                            Связность
+                        .about-us__text
+                            p.
+                                Благодаря этому нашим клиентам обеспечиваются наиболее выгодные на отечественном рынке условия для стабильной и безотказной работы их информационных систем и телекоммуникационного оборудования.
+                    .about-us__text-item
+                        .about-us__text-title.
+                            Место размещения платформы
+                        .about-us__text
+                            p.
+                                ООО «СДН» (SDN) – профессиональная команда, оказывающая полный спектр услуг ДЦ-аутсорсинга – от предоставления в аренду готовых к подключению мест в телекоммуникационных шкафах и серверных модулях до разработки комплекса мер по защите бизнеса клиентов от ИКТ-рисков (DRP-консалтинг).
+                            p.
+                                SDN владеет патентом на одно из самых передовых решений в сфере создания, эксплуатации и развития энергоэффективных модульных дата-центров. Благодаря этому нашим клиентам обеспечиваются наиболее выгодные на отечественном рынке условия для стабильной и безотказной работы их информационных систем и телекоммуникационного оборудования.
+                            p.
+                                Наивысший приоритет в отношениях SDN с клиентами – качество в решении стоящих перед ним ИТ- и бизнес-задач. Вместе с тем  мы ценим деньги и время своих клиентов, поэтому позаботились о том, чтобы им не приходилось переплачивать за труд раздутого штата менеджеров и юристов, дублирующих работу друг друга.
+.excursions
+    .container
+        .excursions__container
+            .row
+                .excursions__bg
+                    img(src="upload/bitmap_8.jpg" srcset="upload/bitmap_8@2x.jpg 2x, upload/bitmap_8@3x.jpg 3x").about-us__bg-img
+                    .excursions__ie-fallback(style="background:url(upload/bitmap_8.jpg) center center; background-size: cover;")
+                .col-lg-7.col-lg-offset-1
+                    .excursions__title.
+                        Экскурсия
+                    .excursions__sub-title.
+                        Закажите эксурсию в наш ЦОД, обещаем нам есть чем удивить
+                .col-lg-4
+                    a(href="#").btn-dft Перезвонить мне
+
+.feedback.js-slider-wrapper
+    .container.feedback__container
+        .feedback__title.title-dft.
+            Наши отзывы
+        .feedback__slider-wrapper
+            .feedback__arrows
+                a(href="#" data-slider="slickPrev").feedback__arrow.feedback__arrow--left.js-arrows
+                    +icon('left')
+                a(href="#" data-slider="slickNext").feedback__arrow.feedback__arrow--right.js-arrows
+                    +icon('right')
+        .feedback__slider-wrapper.js-slider.index-slider
+            - for (var x = 0; x < 5; x++)
+                .feedback__slide
+                    .row
+                        .col-md-5
+                            .feedback__image-wrap
+                                img(src="upload/bitmap_7.jpg" alt="")
+                        .col-md-6
+                            .feedback__slide-title.
+                                Максим Колесников, ПАО «ВымпелКом»
+                            .feedback__slide-text.
+                                Отличные ребята, отличное качество работы. Пробовал много различных VDS, скажу даже больше, не то что в россии, а по всему интернету не нашел никого адекватнее и ответственнее. Жаль, что приходится Сингапур, Японию и США арендовать у других сомнительных личностей, с удовольствием платил бы сдн. Если кто вдруг читает - не верьте, пока не попробуете сами. Лично в моем опыте работы конфузов не было!
+
+.partners
+    .container
+        .partners__title.title-dft.
+            С нами работают
+        .partners__list
+            a(href="#").partners__link
+                img( src="upload/bitmap_4.jpg" srcset="upload/bitmap_4@2x.jpg 2x, upload/bitmap_4@3x.jpg 3x" alt="partner image")
+            a(href="#").partners__link
+                img( src="upload/bitmap_3.jpg" srcset="upload/bitmap_3@2x.jpg 2x, upload/bitmap_3@3x.jpg 3x" alt="partner image")
+            a(href="#").partners__link
+                img( src="upload/bitmap_5.jpg" srcset="upload/bitmap_5@2x.jpg 2x, upload/bitmap_5@3x.jpg 3x" alt="partner image")
+            a(href="#").partners__link
+                img( src="upload/bitmap.jpg" srcset="upload/bitmap@2x.jpg 2x, upload/bitmap@3x.jpg 3x" alt="partner image")
+            a(href="#").partners__link
+                img( src="upload/bitmap_2.jpg" srcset="upload/bitmap_2@2x.jpg 2x, upload/bitmap_2@3x.jpg 3x" alt="partner image")
+            a(href="#").partners__link
+                img( src="upload/bitmap_6.jpg" srcset="upload/bitmap_6@2x.jpg 2x, upload/bitmap_6@3x.jpg 3x" alt="partner image")
+.callback
+    .container
+        .callback__title.title-dft.
+            Форма обратной связи
+        .row
+            .col-lg-6.col-lg-offset-3.text-center.callback__sub-title
+                p.
+                    Если у Вас остались вопросы, вы можете оставить заявку.<br> Мы вам перезвоним и проконсультируем.
+    .container
+        .row
+            .col-lg-4.col-lg-offset-4.col-md-6.col-md-offset-3
+                form#callback-form
+                    .form-group
+                        input(type="text" placeholder="Ваше имя" name="name")
+                    .form-group
+                        input(type="number" placeholder="Номер телефона" name="phone")
+                    .form-group.text-center
+                        button(type="submit").btn-dft.
+                            Перезвонить мне

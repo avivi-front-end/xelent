@@ -1,0 +1,80 @@
+footer.wrapper.footer#footer
+    .footer__wrapper
+        .container
+            .row
+                .col-md-3.clearfix
+                    a(href=""  ).footer__logo
+                        img(src="images/xelent.svg" width="180" height="55" alt="logo")
+                .col-md-3.clearfix
+                    .clearfix
+                        a(href="#").footer__title.
+                            Colocation
+                        a(href="#").footer__title.
+                            IaaS
+                    - var list1 = ['Пакетные тарифы IaaS','Удаленные рабочие места','Виртуальный дата центр','152 ФЗ','Облачное хранилище']
+                    ul.footer__list
+                        each list1item in list1
+                            li.footer__list-item
+                                a(href="#").footer__item= list1item
+                    .clearfix
+                        a(href="#").footer__title.
+                            Dedicated
+                .col-md-3.clearfix
+                    .clearfix
+                        a(href="#").footer__title.
+                            Предложение
+                    - var list2 = ['Агентская программма','Акции','Отраслевые решения','Дополнительные услуги']
+                    ul.footer__list
+                        each list2item in list2
+                            li.footer__list-item
+                                a(href="#").footer__item= list2item
+                    .clearfix
+                        a(href="#").footer__title.
+                            Пресс-Центр
+                    - var list3 = ['Новости','Блог','Брендбук','Фото','Видео','Документы']
+                    ul.footer__list
+                        each list3item in list3
+                            li.footer__list-item
+                                a(href="#").footer__item= list3item
+                .col-md-3.clearfix
+                    .clearfix
+                        a(href="#").footer__title.
+                            О Компании
+                    - var list4 = ['Дата-центр','Карьера','Партнеры','Клиенты','История компании','Руководство']
+                    ul.footer__list
+                        each list4item in list4
+                            li.footer__list-item
+                                a(href="#").footer__item= list4item
+                    .clearfix
+                        a(href="#").footer__title.
+                            Контакты
+    .copyright
+        .container
+            .row
+                .col-xl-4.col-md-6.col-xl-push-4.col-md-push-3
+                    .socials__social-wrap.text-center
+                        a(href="#").socials__social-link.socials__social-link--facebook
+                            span
+                                +icon('facebook')
+                        a(href="#").socials__social-link.socials__social-link--tw
+                            span
+                                +icon('tw')
+                        a(href="#").socials__social-link.socials__social-link--g
+                            span
+                                +icon('g')
+                        a(href="#").socials__social-link.socials__social-link--vk
+                            span
+                                +icon('vk')
+                        a(href="#").socials__social-link.socials__social-link--ok
+                            span
+                                +icon('ok')
+                        a(href="#").socials__social-link.socials__social-link--habr
+                            span
+                                +icon('habr')
+                .col-xl-4.col-md-3.col-xl-pull-4.col-md-pull-6
+                    a(href="#").copyright__link © 2011– 2017 Stackdata.net
+                .col-xl-4.col-md-3.text-md-right
+                    a(href="#").copyright__made-by
+                        | Разработано в
+                        span.icon-wrap
+                            +icon('bquadro')

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="102px" viewBox="0 0 117 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>1F1E3650-006F-48FB-AAFF-FC0C2D2A6F6A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Ready-To-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-1052.000000, -847.000000)">
+            <g id="Услуги" transform="translate(150.000000, 695.000000)">
+                <g id="3" transform="translate(780.000000, 100.000000)">
+                    <g id="illustration_3" transform="translate(124.000000, 54.000000)">
+                        <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="nonzero" x="38.2741935" y="48.9090909" width="36.4516129" height="7.27272727"></rect>
+                        <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="nonzero" x="38.2741935" y="70.7272727" width="36.4516129" height="7.27272727"></rect>
+                        <rect id="Rectangle-path" fill="#E6E6E6" fill-rule="nonzero" x="38.2741935" y="94.5454545" width="36.4516129" height="5.45454545"></rect>
+                        <rect id="Rectangle-path" stroke="#646464" stroke-width="4" x="40" y="49" width="34" height="7"></rect>
+                        <rect id="Rectangle-path" stroke="#646464" stroke-width="4" x="40" y="72" width="34" height="7"></rect>
+                        <polyline id="Shape" stroke="#646464" stroke-width="4" points="40 100 40 95 74 95 74 100"></polyline>
+                        <g id="Group-6" transform="translate(35.000000, 33.000000)" stroke-width="4">
+                            <rect id="Rectangle-path" stroke="#646464" x="0" y="0" width="44" height="16"></rect>
+                            <path d="M4.99696439,8 L23.0151296,8" id="Shape" stroke="#646464"></path>
+                            <path d="M33,8 L37,8" id="Shape" stroke="#ED1C24"></path>
+                        </g>
+                        <g id="Group-6-Copy" transform="translate(35.000000, 56.000000)" stroke-width="4">
+                            <rect id="Rectangle-path" stroke="#646464" x="0" y="0" width="44" height="16"></rect>
+                            <path d="M4.99696439,8 L23.0151296,8" id="Shape" stroke="#646464"></path>
+                            <path d="M33,8 L37,8" id="Shape" stroke="#ED1C24"></path>
+                        </g>
+                        <g id="Group-6-Copy-2" transform="translate(35.000000, 79.000000)" stroke-width="4">
+                            <rect id="Rectangle-path" stroke="#646464" x="0" y="0" width="44" height="16"></rect>
+                            <path d="M4.99696439,8 L23.0151296,8" id="Shape" stroke="#646464"></path>
+                            <path d="M33,8 L37,8" id="Shape" stroke="#ED1C24"></path>
+                        </g>
+                        <path d="M39.9959179,23.0209694 C39.9959179,14.2346211 46.9195312,6.99936095 55.9787826,6.99936095" id="Shape" stroke="#DADADA" stroke-width="4"></path>
+                        <path d="M30,64 L15,64 C6.5279772,64 8.09388399e-16,57.4579087 0,49 C-1.0117355e-15,41.3177514 6.5279772,34.77566 15,35 C13.7293707,29.5977727 15.3170364,24.098124 19,20 C23.1060711,16.7796399 28.6846892,15.5459337 34,17 C36.6599771,7.02852035 45.9572835,-6.08353783e-16 57,0 C67.1156197,6.08353783e-16 76.4129261,7.02852035 79,17 C84.3788763,15.5812797 89.9294957,16.8312667 94,20 C97.6753813,24.1377214 99.2561416,29.6145447 98,35 C106.472023,34.77566 113,41.3177514 113,49 C113,57.4579087 106.472023,64 98,64 L84,64" id="Shape" stroke="#DADADA" stroke-width="4" stroke-linejoin="round"></path>
+                        <g id="Group-7" transform="translate(85.000000, 77.000000)" stroke="#ED1C24" stroke-width="4">
+                            <path d="M1,1 L1,5" id="Shape"></path>
+                            <path d="M1,8 L1,12" id="Shape"></path>
+                            <path d="M1,15 L1,19" id="Shape"></path>
+                        </g>
+                        <g id="Group-7-Copy" transform="translate(27.000000, 77.000000)" stroke="#ED1C24" stroke-width="4">
+                            <path d="M1,1 L1,5" id="Shape"></path>
+                            <path d="M1,8 L1,12" id="Shape"></path>
+                            <path d="M1,15 L1,19" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

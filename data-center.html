@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ie-detector.js"></script>
+    <script src="js/modernizr.js"></script><!--[if lt IE 7]>  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+  </head>
+  <div class="page-wrapper" id="page-wrapper">
+    <header class="wrapper header" id="header">
+      <div class="header__top-wrap">
+        <div class="container">
+          <div class="header__top-wrapper clearfix"><a class="header__logo" href="index.html"><img src="images/xelent.svg" width="180" height="55" alt="logo"></a>
+            <div class="header__feedback-wrap clearfix">
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Санкт-Петербург</div><a class="header__feedback-link" href="#">+7 812 319-00-04</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Москва</div><a class="header__feedback-link" href="#">8 495 980-60-09</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Поддержка</div><a class="header__feedback-link" href="#">8 812 319-00-03</a>
+              </div>
+            </div><a class="header__mail" href="#">sales@stackdata.net</a><a class="header__search js-show-search" href="#">
+              <svg class="icon icon-search ">
+                <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+              </svg></a>
+            <div class="header__search-wrap">
+              <button class="header__search-submit" type="submit">
+                <svg class="icon icon-search ">
+                  <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <input class="header__search-input" type="text" placeholder="Поиск"><a class="header__search-wrap-close js-close-search" href="#">
+                <svg class="icon icon-close ">
+                  <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom-wrap">
+        <div class="container"><a class="header__mobile js-show-menu" href="#"><span></span></a>
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Colocation</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">IaaS</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Dedicated</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Предложение</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">О Компании</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">
+                          Виртуальный дата цент
+                          </a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Пресс-Центр</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="page-body" id="page-body">
+      <div class="section-dft">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li><a class="breadcrumbs__link" href="#">Главная</a></li>
+            <li><a class="breadcrumbs__link" href="#">О Компании</a></li>
+            <li><a class="breadcrumbs__link" href="#">Дата-центр</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <h1>Дата-центр</h1>
+        </div>
+        <div class="data-center" style="background: url(upload/banner-1.jpg) no-repeat center center; background-size:cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="data-center__title text-center">Data-center</div>
+                <div class="data-center__text text-center">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону.</div>
+              </div>
+            </div>
+            <div class="data-center__info">
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Более</div>
+                  <div class="data-center__item-text">1400 стоек</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Мощность</div>
+                  <div class="data-center__item-text">14 мВт</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Площадь участка</div>
+                  <div class="data-center__item-text">3,05 Га</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data-center" style="background: url(upload/banner-2.jpg) no-repeat center center; background-size:cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="data-center__title text-center">Система электроснабжения</div>
+                <div class="data-center__text text-center">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону.</div>
+              </div>
+            </div>
+            <div class="data-center__info">
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">ИБП</div>
+                  <div class="data-center__item-text">Динамические</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Две линии по</div>
+                  <div class="data-center__item-text">110 кВт</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Схема резервирования</div>
+                  <div class="data-center__item-text">N+1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data-center" style="background: url(upload/banner-3.jpg) no-repeat center center; background-size:cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="data-center__title text-center">Система охлаждения</div>
+                <div class="data-center__text text-center">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону.</div>
+              </div>
+            </div>
+            <div class="data-center__info">
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Технология охлаждения</div>
+                  <div class="data-center__item-text">Free Cooling</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Температура в залах</div>
+                  <div class="data-center__item-text">25 °C</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Энергоэффективность</div>
+                  <div class="data-center__item-text">PUE=1,2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data-center" style="background: url(upload/banner-4.jpg) no-repeat center center; background-size:cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="data-center__title text-center">Система пожаротушения</div>
+                <div class="data-center__text text-center">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону.</div>
+              </div>
+            </div>
+            <div class="data-center__info">
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Система обнаружения дыма</div>
+                  <div class="data-center__item-text">Vesda</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Система автоматического</div>
+                  <div class="data-center__item-text">Пожаротушения</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data-center" style="background: url(upload/banner-5.jpg) no-repeat center center; background-size:cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="data-center__title text-center">Телекоммуникации</div>
+                <div class="data-center__text text-center">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону.</div>
+              </div>
+            </div>
+            <div class="data-center__info">
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Телекоммуникационных ввода</div>
+                  <div class="data-center__item-text">2</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Собственные ВОЛС</div>
+                  <div class="data-center__item-text">Carrier neutral</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="data-center" style="background: url(upload/banner-6.jpg) no-repeat center center; background-size:cover;">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="data-center__title text-center">Безопастность</div>
+                <div class="data-center__text text-center">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону.</div>
+              </div>
+            </div>
+            <div class="data-center__info">
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Охрана центра</div>
+                  <div class="data-center__item-text">24/7</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Камер наблюдений</div>
+                  <div class="data-center__item-text">200</div>
+                </div>
+              </div>
+              <div class="data-center__item">
+                <div class="data-center__wrapper">
+                  <div class="data-center__item-title">Система</div>
+                  <div class="data-center__item-text">СКУД</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-dft callback__section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-8 col-xl-offset-2">
+              <div class="data-center__callback-form">
+                <div class="callback__title title-dft">Форма обратной связи</div>
+                <div class="row">
+                  <div class="col-lg-10 col-lg-offset-1 text-center callback__sub-title">
+                    <p>Если у Вас остались вопросы, вы можете оставить заявку.<br> Мы вам перезвоним и проконсультируем.</p>
+                  </div>
+                  <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3">
+                    <form id="callback-form">
+                      <div class="form-group">
+                        <input type="text" placeholder="Ваше имя" name="name">
+                      </div>
+                      <div class="form-group">
+                        <input type="number" placeholder="Номер телефона" name="phone">
+                      </div>
+                      <div class="form-group text-center">
+                        <button class="btn-dft" type="submit">Перезвонить мне</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h3 class="text-center color-grey photo-gallery__title">Фотогалерея</h3>
+        </div>
+        <div class="photo-gallery__wrapper">
+          <div class="photo-gallery__photo-bg photo-gallery__photo-bg--left" style="background: url(upload/gallery-left.jpg) no-repeat center center;background-size:cover;"></div>
+          <div class="photo-gallery__photo-bg photo-gallery__photo-bg--right" style="background: url(upload/gallery-right.jpg) no-repeat center center;background-size:cover;"></div>
+          <div class="container"><a class="photo-gallery__arrow photo-gallery__arrow--left js-arrows" href="#" data-slider="slickPrev">
+              <svg class="icon icon-left ">
+                <use xlink:href="images/svgsprite/sprite.svg#left"></use>
+              </svg></a><a class="photo-gallery__arrow photo-gallery__arrow--right js-arrows" href="#" data-slider="slickNext">
+              <svg class="icon icon-right ">
+                <use xlink:href="images/svgsprite/sprite.svg#right"></use>
+              </svg></a>
+            <div class="row">
+              <div class="col-xl-10 col-xl-offset-1">
+                <div class="photo-gallery__main js-gallery">
+                  <div class="photo-gallery__slide"><img src="upload/photo-main.jpg" srcset="upload/photo-main@2x.jpg 2x,upload/photo-main@3x.jpg 3x" alt=""></div>
+                  <div class="photo-gallery__slide"><img src="upload/photo-main.jpg" srcset="upload/photo-main@2x.jpg 2x,upload/photo-main@3x.jpg 3x" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="excursions excursions--data-center">
+        <div class="container">
+          <div class="excursions__container">
+            <div class="row">
+              <div class="excursions__bg"><img class="about-us__bg-img" src="upload/bitmap_8.jpg" srcset="upload/bitmap_8@2x.jpg 2x, upload/bitmap_8@3x.jpg 3x">
+                <div class="excursions__ie-fallback" style="background:url(upload/bitmap_8.jpg) center center; background-size: cover;"></div>
+              </div>
+              <div class="col-lg-7 col-lg-offset-1">
+                <div class="excursions__title">Экскурсия</div>
+                <div class="excursions__sub-title">Закажите эксурсию в наш ЦОД, обещаем нам есть чем удивить</div>
+              </div>
+              <div class="col-lg-4"><a class="btn-dft" href="#">Перезвонить мне</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="wrapper footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 clearfix"><a class="footer__logo" href=""><img src="images/xelent.svg" width="180" height="55" alt="logo"></a></div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Colocation</a><a class="footer__title" href="#">IaaS</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Dedicated</a></div>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Предложение</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Агентская программма</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Акции</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Отраслевые решения</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Дополнительные услуги</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Пресс-Центр</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Новости</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Блог</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Брендбук</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Фото</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Видео</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Документы</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">О Компании</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Дата-центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Карьера</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Партнеры</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Клиенты</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">История компании</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Руководство</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Контакты</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-xl-push-4 col-md-push-3">
+              <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                    <svg class="icon icon-tw ">
+                      <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                    <svg class="icon icon-g ">
+                      <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                    <svg class="icon icon-ok ">
+                      <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                    <svg class="icon icon-habr ">
+                      <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                    </svg></span></a></div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-xl-pull-4 col-md-pull-6"><a class="copyright__link" href="#">© 2011– 2017 Stackdata.net</a></div>
+            <div class="col-xl-4 col-md-3 text-md-right"><a class="copyright__made-by" href="#">Разработано в<span class="icon-wrap">
+                  <svg class="icon icon-bquadro ">
+                    <use xlink:href="images/svgsprite/sprite.svg#bquadro"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+</html>

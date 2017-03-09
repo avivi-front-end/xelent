@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="95px" viewBox="0 0 89 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>05840AED-6B23-4E93-AC0A-9C921A0D4AC9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="45" cy="49" r="15"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <circle id="path-3" cx="6" cy="72" r="6"></circle>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="83" cy="72" r="6"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <circle id="path-7" cx="44" cy="6" r="6"></circle>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="12" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Ready-To-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-383.000000, -3795.000000)">
+            <g id="Почему-мы" transform="translate(0.000000, 2915.000000)">
+                <g id="4" transform="translate(345.000000, 845.000000)">
+                    <g id="illustration_10">
+                        <g transform="translate(38.000000, 35.000000)">
+                            <g id="Group-12" transform="translate(2.000000, 1.000000)">
+                                <path d="M46.6786607,5.42889908 C56.4248214,9.44036697 63.75,27.1952752 63.75,48.4802752 C63.75,72.7292202 54.2436607,92.3793578 42.5,92.3793578 M4.37142857,26.5307339 C-1.4875,36.6729358 10.8223214,54.7169725 31.875,66.8270642 C49.8160714,77.1509174 68.3035714,79.8605505 77.0160714,74.1536697 M80.6285714,26.5307339 C74.7544643,16.4036697 52.9276786,18.0082569 31.875,30.1334862 C13.0991071,40.955367 1.275,56.471422 3.09642857,66.8876147" id="Stroke-8" stroke="#898989" stroke-width="1.7"></path>
+                                <path d="M78,48 C78,67.3311364 62.3311364,83 43,83 C23.6688636,83 8,67.3311364 8,48 C8,28.6672727 23.6688636,13 43,13 C62.3311364,13 78,28.6672727 78,48" id="Fill-10" fill="#E6E6E6"></path>
+                                <path d="M42.5,92.3793578 C30.7563393,92.3793578 21.25,72.7292202 21.25,48.4802752 C21.25,27.1952752 28.2887784,9.00059147 38.0349391,4.98912358 M47.0535714,4.58119266 C47.0535714,7.08798165 45.0150893,9.12247706 42.5,9.12247706 C39.9849107,9.12247706 38.0728908,7.16987236 38.0728908,4.66308337 C38.0728908,2.15629438 39.9849107,0.0399082569 42.5,0.0399082569 M9.10714286,71.1866972 C9.10714286,73.6934862 7.06866071,75.7279817 4.55357143,75.7279817 C2.03848214,75.7279817 0,73.6934862 0,71.1866972 C0,68.6799083 2.03848214,66.6454128 4.55357143,66.6454128 M85,71.1866972 C85,73.6934862 82.9615179,75.7279817 80.4464286,75.7279817 C77.9313393,75.7279817 75.8928571,73.6934862 75.8928571,71.1866972 C75.8928571,68.6799083 77.9313393,66.6454128 80.4464286,66.6454128" id="Stroke-11" stroke="#898989" stroke-width="1.7"></path>
+                            </g>
+                            <use id="Oval-7" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="8" fill="#EA212D" xlink:href="#path-1"></use>
+                            <path d="M83.8883929,67.8876147 C85.725,57.4562844 73.9008929,41.9402294 55.125,31.1334862 C34.0723214,19.0082569 12.2455357,17.3885321 6.37142857,27.5307339 M9.98392857,75.1536697 C18.6964286,80.8605505 37.1839286,78.1509174 55.125,67.8270642 C76.1776786,55.7169725 88.4875,37.6729358 82.6285714,27.5307339" id="Stroke-17" stroke="#898989" stroke-width="1.7"></path>
+                            <use id="Oval-4" stroke="#EA212D" mask="url(#mask-4)" stroke-width="5.4000001" fill="#FFFFFF" xlink:href="#path-3"></use>
+                            <use id="Oval-4-Copy" stroke="#EA212D" mask="url(#mask-6)" stroke-width="5.4000001" fill="#FFFFFF" xlink:href="#path-5"></use>
+                            <use id="Oval-4-Copy-2" stroke="#EA212D" mask="url(#mask-8)" stroke-width="5.4000001" fill="#FFFFFF" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

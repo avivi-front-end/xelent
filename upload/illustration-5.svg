@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="98px" height="104px" viewBox="0 0 98 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ED5868DA-49EE-4420-B755-AAE96224B13E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Ready-To-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index" transform="translate(-671.000000, -1378.000000)">
+            <g id="Услуги" transform="translate(150.000000, 695.000000)">
+                <g id="5" transform="translate(390.000000, 629.000000)">
+                    <g id="illustration_5" transform="translate(133.000000, 56.000000)">
+                        <path d="M50,66 L58.3448276,66" id="Shape" stroke="#DADADA" stroke-width="4"></path>
+                        <path d="M58.3448276,33 L50,33" id="Shape" stroke="#DADADA" stroke-width="4"></path>
+                        <polyline id="Shape" stroke="#DADADA" stroke-width="4" points="66 89 58 89 58 13 66 13"></polyline>
+                        <path d="M58.3448276,50 L66,50" id="Shape" stroke="#DADADA" stroke-width="4"></path>
+                        <path d="M22.6896552,50.0481 C10.1617241,50.0481 0,45.7135642 0,40.3799904 L0,56.4935065 C0,61.8270803 10.1617241,66.1616162 22.6896552,66.1616162 C35.2175862,66.1616162 45.3793103,61.8270803 45.3793103,56.4935065 L45.3793103,40.3799904 C45.3793103,45.7135642 35.2175862,50.0481 22.6896552,50.0481 Z" id="Shape" fill="#ED1C24" fill-rule="nonzero"></path>
+                        <rect id="Rectangle-path" fill="#DADADA" fill-rule="nonzero" x="71.3103448" y="0.0478595479" width="22.6896552" height="24.1702742"></rect>
+                        <rect id="Rectangle-path" fill="#DADADA" fill-rule="nonzero" x="71.3103448" y="75.7813853" width="22.6896552" height="24.1702742"></rect>
+                        <path d="M94,16 L94,22 C94,23.2836556 93.2644678,24 92,24 L73,24 C71.7355322,24 71,23.2836556 71,22 L71,16" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M94,11 C94,12.2724627 93.2644678,13 92,13 L73,13 C71.7355322,13 71,12.2724627 71,11 L71,2 C71,0.727537282 71.7355322,0 73,0 L92,0 C93.2644678,0 94,0.727537282 94,2 L94,11 Z" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <g id="Group-9" transform="translate(76.000000, 5.000000)" fill="#646464">
+                            <rect id="Rectangle-20" x="0" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-20-Copy" x="0" y="12" width="3" height="3"></rect>
+                        </g>
+                        <g id="Group-9-Copy" transform="translate(76.000000, 42.000000)" fill="#646464">
+                            <rect id="Rectangle-20" x="0" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-20-Copy" x="0" y="12" width="3" height="3"></rect>
+                        </g>
+                        <g id="Group-9-Copy-2" transform="translate(76.000000, 81.000000)" fill="#646464">
+                            <rect id="Rectangle-20" x="0" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-20-Copy" x="0" y="12" width="3" height="3"></rect>
+                        </g>
+                        <path d="M94,53 L94,59 C94,60.2836556 93.2644678,61 92,61 L73,61 C71.7355322,61 71,60.2836556 71,59 L71,53" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M94,48 C94,49.2724627 93.2644678,50 92,50 L73,50 C71.7355322,50 71,49.2724627 71,48 L71,39 C71,37.7275373 71.7355322,37 73,37 L92,37 C93.2644678,37 94,37.7275373 94,39 L94,48 Z" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M94,92 L94,98 C94,99.2836556 93.2644678,100 92,100 L73,100 C71.7355322,100 71,99.2836556 71,98 L71,92" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M94,87 C94,88.2724627 93.2644678,89 92,89 L73,89 C71.7355322,89 71,88.2724627 71,87 L71,78 C71,76.7275373 71.7355322,76 73,76 L92,76 C93.2644678,76 94,76.7275373 94,78 L94,87 Z" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <ellipse id="Oval" stroke="#646464" stroke-width="4" cx="22.5" cy="24.5" rx="22.5" ry="9.5"></ellipse>
+                        <path d="M0,24 L0,40 C0,45.62875 10.0767857,50 23,50 C34.9232143,50 45,45.62875 45,40 L45,24" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M0,40 L0,56 C0,61.62875 10.0767857,66 23,66 C34.9232143,66 45,61.62875 45,56 L45,40" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <path d="M0,56 L0,72 C0,77.62875 10.0767857,82 23,82 C34.9232143,82 45,77.62875 45,72 L45,56" id="Shape" stroke="#646464" stroke-width="4"></path>
+                        <g id="Group-8" transform="translate(16.000000, 40.000000)" fill="#DADADA">
+                            <rect id="Rectangle-19" x="0" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-19-Copy" x="6" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-19-Copy-2" x="12" y="0" width="3" height="3"></rect>
+                        </g>
+                        <g id="Group-8-Copy-2" transform="translate(16.000000, 56.000000)" fill="#FFFFFF">
+                            <rect id="Rectangle-19" x="0" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-19-Copy" x="6" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-19-Copy-2" x="12" y="0" width="3" height="3"></rect>
+                        </g>
+                        <g id="Group-8-Copy-3" transform="translate(16.000000, 72.000000)" fill="#DADADA">
+                            <rect id="Rectangle-19" x="0" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-19-Copy" x="6" y="0" width="3" height="3"></rect>
+                            <rect id="Rectangle-19-Copy-2" x="12" y="0" width="3" height="3"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ie-detector.js"></script>
+    <script src="js/modernizr.js"></script><!--[if lt IE 7]>  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+  </head>
+  <div class="pop-up" id="callback-pop-up" style="display:none;"><a class="pop-up__close js-close-pop-up" href="#" data-fancybox-close>
+      <svg class="icon icon-close ">
+        <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+      </svg></a>
+    <h3 class="pop-up__title text-center color-grey">Заказать звонок</h3>
+    <form>
+      <div class="pop-up__wrapper">
+        <div class="form-group">
+          <label>
+            <input type="text"><span class="input-placeholder">Представьтесь</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            <input type="text"><span class="input-placeholder">Компания</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            <input type="text"><span class="input-placeholder">Номер</span>
+          </label>
+        </div>
+        <div class="form-group text-center pop-up__submit-wrap">
+          <button class="btn-dft" type="submit">Перезвонить мне</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="page-wrapper" id="page-wrapper">
+    <header class="wrapper header" id="header">
+      <div class="header__top-wrap">
+        <div class="container">
+          <div class="header__top-wrapper clearfix"><a class="header__logo" href="index.html"><img src="images/xelent.svg" width="180" height="55" alt="logo"></a>
+            <div class="header__feedback-wrap clearfix">
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Санкт-Петербург</div><a class="header__feedback-link" href="#">+7 812 319-00-04</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Москва</div><a class="header__feedback-link" href="#">8 495 980-60-09</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Поддержка</div><a class="header__feedback-link" href="#">8 812 319-00-03</a>
+              </div>
+            </div><a class="header__mail" href="#">sales@stackdata.net</a><a class="header__search js-show-search" href="#">
+              <svg class="icon icon-search ">
+                <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+              </svg></a>
+            <div class="header__search-wrap">
+              <button class="header__search-submit" type="submit">
+                <svg class="icon icon-search ">
+                  <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <input class="header__search-input" type="text" placeholder="Поиск"><a class="header__search-wrap-close js-close-search" href="#">
+                <svg class="icon icon-close ">
+                  <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom-wrap">
+        <div class="container"><a class="header__mobile js-show-menu" href="#"><span></span></a>
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Colocation</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">IaaS</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Dedicated</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Предложение</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">О Компании</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">
+                          Виртуальный дата цент
+                          </a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Пресс-Центр</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="page-body" id="page-body">
+      <div class="top-slider js-slider-wrapper">
+        <div class="top-slider__slider-wrapper container">
+          <div class="top-slider__arrows"><a class="top-slider__arrow top-slider__arrow--left js-arrows" href="#" data-slider="slickPrev">
+              <svg class="icon icon-left ">
+                <use xlink:href="images/svgsprite/sprite.svg#left"></use>
+              </svg></a><a class="top-slider__arrow top-slider__arrow--right js-arrows" href="#" data-slider="slickNext">
+              <svg class="icon icon-right ">
+                <use xlink:href="images/svgsprite/sprite.svg#right"></use>
+              </svg></a></div>
+        </div>
+        <div class="top-slider__slider js-slider index-slider">
+          <div class="top-slider__slider-item">
+            <div class="top-slider__bg-img"><img src="upload/shutterstock-92065760.jpg" srcset="upload/shutterstock-92065760@2x.jpg 2x" alt="main image">
+              <div class="top-slider__ie-fallback" style="background:url(upload/shutterstock-92065760.jpg) center center; background-size:cover;"></div>
+            </div>
+            <div class="top-slider__slide-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-xl-offset-2">
+                    <div class="top-slider__slider-title">Мы помогаем своим клиентам уверенно строить бизнес.</div>
+                    <div class="top-slider__slider-text">SDN предоставляет своим клиентам широкие возможности по организации и эксплуатации качественной инфраструктуры, отвечающей требованиям времени и бизнес-задачам конкретной организации.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-slider__slider-item">
+            <div class="top-slider__bg-img"><img src="upload/shutterstock-92065760.jpg" srcset="upload/shutterstock-92065760@2x.jpg 2x" alt="main image">
+              <div class="top-slider__ie-fallback" style="background:url(upload/shutterstock-92065760.jpg) center center; background-size:cover;"></div>
+            </div>
+            <div class="top-slider__slide-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-xl-offset-2">
+                    <div class="top-slider__slider-title">Мы помогаем своим клиентам уверенно строить бизнес.</div>
+                    <div class="top-slider__slider-text">SDN предоставляет своим клиентам широкие возможности по организации и эксплуатации качественной инфраструктуры, отвечающей требованиям времени и бизнес-задачам конкретной организации.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-slider__slider-item">
+            <div class="top-slider__bg-img"><img src="upload/shutterstock-92065760.jpg" srcset="upload/shutterstock-92065760@2x.jpg 2x" alt="main image">
+              <div class="top-slider__ie-fallback" style="background:url(upload/shutterstock-92065760.jpg) center center; background-size:cover;"></div>
+            </div>
+            <div class="top-slider__slide-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-xl-offset-2">
+                    <div class="top-slider__slider-title">Мы помогаем своим клиентам уверенно строить бизнес.</div>
+                    <div class="top-slider__slider-text">SDN предоставляет своим клиентам широкие возможности по организации и эксплуатации качественной инфраструктуры, отвечающей требованиям времени и бизнес-задачам конкретной организации.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-slider__slider-item">
+            <div class="top-slider__bg-img"><img src="upload/shutterstock-92065760.jpg" srcset="upload/shutterstock-92065760@2x.jpg 2x" alt="main image">
+              <div class="top-slider__ie-fallback" style="background:url(upload/shutterstock-92065760.jpg) center center; background-size:cover;"></div>
+            </div>
+            <div class="top-slider__slide-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-xl-offset-2">
+                    <div class="top-slider__slider-title">Мы помогаем своим клиентам уверенно строить бизнес.</div>
+                    <div class="top-slider__slider-text">SDN предоставляет своим клиентам широкие возможности по организации и эксплуатации качественной инфраструктуры, отвечающей требованиям времени и бизнес-задачам конкретной организации.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="top-slider__slider-item">
+            <div class="top-slider__bg-img"><img src="upload/shutterstock-92065760.jpg" srcset="upload/shutterstock-92065760@2x.jpg 2x" alt="main image">
+              <div class="top-slider__ie-fallback" style="background:url(upload/shutterstock-92065760.jpg) center center; background-size:cover;"></div>
+            </div>
+            <div class="top-slider__slide-wrap">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xl-8 col-xl-offset-2">
+                    <div class="top-slider__slider-title">Мы помогаем своим клиентам уверенно строить бизнес.</div>
+                    <div class="top-slider__slider-text">SDN предоставляет своим клиентам широкие возможности по организации и эксплуатации качественной инфраструктуры, отвечающей требованиям времени и бизнес-задачам конкретной организации.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services__title-wrap container">
+          <div class="title-dft">Услуги</div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 js-height services__outer-wrap">
+              <div class="services__item">
+                <div class="services__image-wrap"><img class="services__image" src="upload/illustration-1.svg" alt="service image"></div>
+                <div class="services__title">Размещение оборудования (colacation)</div>
+                <div class="services__text">Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 js-height services__outer-wrap">
+              <div class="services__item">
+                <div class="services__image-wrap"><img class="services__image" src="upload/illustration-2.svg" alt="service image"></div>
+                <div class="services__title">Аренда оборудования</div>
+                <div class="services__text">Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 js-height services__outer-wrap">
+              <div class="services__item">
+                <div class="services__image-wrap"><img class="services__image" src="upload/illustration-3.svg" alt="service image"></div>
+                <div class="services__title">vDS/vPS</div>
+                <div class="services__text">
+                  Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 js-height services__outer-wrap">
+              <div class="services__item">
+                <div class="services__image-wrap"><img class="services__image" src="upload/illustration-4.svg" alt="service image"></div>
+                <div class="services__title">Удаленные рабочие места</div>
+                <div class="services__text">Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 js-height services__outer-wrap">
+              <div class="services__item">
+                <div class="services__image-wrap"><img class="services__image" src="upload/illustration-5.svg" alt="service image"></div>
+                <div class="services__title">Виртуальный ДЦ</div>
+                <div class="services__text">Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).</div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 js-height services__outer-wrap">
+              <div class="services__item">
+                <div class="services__image-wrap"><img class="services__image" src="upload/illustration-6.svg" alt="service image"></div>
+                <div class="services__title">Облачное хранилище</div>
+                <div class="services__text">Дата-центр СДН предлагает в аренду виртуальную инфраструктуру – гибкое решение для создания собственного парка виртуальных серверов (виртуального дата-центра).</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testing">
+        <div class="container">
+          <div class="testing__title title-dft">Тестируйте бесплатно</div>
+          <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="testing__sub-title">Клиенты Stack Data Network имеют возможность оперативно реагировать на изменение бизнес-обстановки, формируя необходимый и достаточный для себя комплекс технологических, проектных, административных услуг по среднерыночным ценам.</div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="testing__tabs-head">
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1">
+                <div class="testing__tabs-head-wrap clearfix"><a class="js-testing-tab testing__tab-link active" href="#testing-1">vDC</a><a class="js-testing-tab testing__tab-link" href="#testing-2">vDC/PS</a><a class="js-testing-tab testing__tab-link" href="#testing-3">Storage</a><a class="js-testing-tab testing__tab-link" href="#testing-4">Услуга 4</a><a class="js-testing-tab testing__tab-link" href="#testing-5">Услуга 5</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="testing__tabs-body">
+            <div class="testing__tabs-item active" id="testing-1">
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Процессор</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider-cpu range-slider" data-value="0" data-min="0" data-max="5" data-step="1"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Оперативная память</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="2" data-min="0" data-max="10" data-step="1"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Жесткий диск</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="50" data-min="0" data-max="300" data-step="25"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Отказоустойчивое дисковое хранилище SAS</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10" data-min="0" data-max="100" data-step="10"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Отказоустойчивое дисковое хранилище SATA</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10" data-min="0" data-max="100" data-step="10"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Внешний IP-адрес (IPv4+IPv6)</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10" data-min="0" data-max="100" data-step="10"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Автоматическое резервное копирование</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10000" data-min="0" data-max="65350" data-step="5000"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="testing__btns-wrap text-center"><a class="btn-dft" href="#">Заказать</a><a class="testing__info-link" href="#">Подробнее о услуге</a></div>
+            </div>
+            <div class="testing__tabs-item" id="testing-2">
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Автоматическое</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10000" data-min="0" data-max="65350" data-step="5000"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testing__tabs-item" id="testing-3">
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Автоматическое копирование</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10000" data-min="0" data-max="65350" data-step="5000"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testing__tabs-item" id="testing-4">
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Автоматическое резервное копирование</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10000" data-min="0" data-max="65350" data-step="5000"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="testing__tabs-item" id="testing-5">
+              <div class="testing__tabs-params">
+                <div class="row testing__tabs-row">
+                  <div class="col-md-3 col-md-offset-1">
+                    <div class="testing__params-name text-right">Внешний IP-адрес (IPv4+IPv6)</div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="testing__slider-wrap">
+                      <div class="testing__params-slider">
+                        <div class="js-params-slider range-slider" data-value="10000" data-min="0" data-max="65350" data-step="5000"></div>
+                      </div>
+                      <div class="testing__params-value"><span></span> Gb</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-us">
+        <div class="container">
+          <div class="title-dft why-us__main-title">Почему мы</div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="why-us__item clearfix">
+              <div class="col-xl-2 col-xl-offset-2 col-lg-3 col-md-4">
+                <div class="why-us__image-wrap"><img src="upload/illustration-7.svg"></div>
+              </div>
+              <div class="col-xl-6 col-lg-9 col-md-8">
+                <div class="why-us__title">Бесперебойность</div>
+                <div class="why-us__text">
+                  <p>Ни одного падения за три года, многократное резервирование по энергоснабжению и хладообеспечению, а также по каналам связи. Основные технические решения для нашего дата-центра были разработаны в тесном сотрудничестве.</p>
+                </div>
+              </div>
+            </div>
+            <div class="why-us__item clearfix">
+              <div class="col-xl-2 col-xl-offset-2 col-lg-3 col-md-4">
+                <div class="why-us__image-wrap"><img src="upload/illustration-8.svg"></div>
+              </div>
+              <div class="col-xl-6 col-lg-9 col-md-8">
+                <div class="why-us__title">Безопасность</div>
+                <div class="why-us__text">
+                  <p>Cертификат PCI DSS, позволяющий хранить данные финансовых организаций, включая банковские карты, 5 периметров безопасности, СКУД, более 200 видеокамер, зонирование размещения оборудования клиентов - оборудование недоступно ни для кого кроме заказчика.</p>
+                </div>
+              </div>
+            </div>
+            <div class="why-us__item clearfix">
+              <div class="col-xl-2 col-xl-offset-2 col-lg-3 col-md-4">
+                <div class="why-us__image-wrap"><img src="upload/illustration-9.svg"></div>
+              </div>
+              <div class="col-xl-6 col-lg-9 col-md-8">
+                <div class="why-us__title">Экономия</div>
+                <div class="why-us__text">
+                  <p>
+                    Pа счет оборудования последнего поколения, позволяющего использовать все климатические преимущества - низкая цена за электричество, предсказуемое ценообразование, целый ряд решений, которые сконфигурированы для бизнесов различного масштаба.
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="why-us__item clearfix">
+              <div class="col-xl-2 col-xl-offset-2 col-lg-3 col-md-4">
+                <div class="why-us__image-wrap"><img src="upload/illustration-10.svg"></div>
+              </div>
+              <div class="col-xl-6 col-lg-9 col-md-8">
+                <div class="why-us__title">Масштабируемость</div>
+                <div class="why-us__text">
+                  <p>Циркуляцию внутреннего и наружного воздуха обеспечивают по два вентилятора промышленного класса. Тепловые насосы также выполнены в виде двух параллельных контуров, так что при выходе из строя одного из них сохраняется половина охлаждающей способности.</p>
+                </div>
+              </div>
+            </div>
+            <div class="why-us__item clearfix">
+              <div class="col-xl-2 col-xl-offset-2 col-lg-3 col-md-4">
+                <div class="why-us__image-wrap"><img src="upload/illustration-11.svg"></div>
+              </div>
+              <div class="col-xl-6 col-lg-9 col-md-8">
+                <div class="why-us__title">Комфорт</div>
+                <div class="why-us__text">
+                  <p>
+                    Доступ и техническая поддержка 24/7/365, удобная парковка, офисы для дежурства и работы специалистов заказчика прямо на месте, помощь в переезде, услуги с удаленным управлением нашим техническим персоналом.
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-us">
+        <div class="about-us__banner">
+          <div class="about-us__bg"><img src="upload/bitmap_8.jpg" srcset="upload/bitmap_8@2x.jpg 2x, upload/bitmap_8@3x.jpg 3x">
+            <div class="about-us__ie-fallback" style="background:url(upload/bitmap_8.jpg) center center; background-size: cover;"></div>
+          </div>
+          <div class="container about-us__container">
+            <div class="about-us__title">О нашем центре</div>
+            <div class="about-us__sub-title">г. Санкт-Петербург</div>
+            <div class="row">
+              <div class="col-lg-4 col-lg-offset-2 col-md-6 about-us__item">
+                <div class="about-us__item-title">1 400</div>
+                <div class="about-us__item-sub-title">стойко-мест</div>
+              </div>
+              <div class="col-lg-4 col-md-6 about-us__item">
+                <div class="about-us__item-title">12 МВт</div>
+                <div class="about-us__item-sub-title">Мощность</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="about-us__text-wrapper">
+                <div class="about-us__text-item">
+                  <div class="about-us__text-title">Уровень надежности</div>
+                  <div class="about-us__text">
+                    <p>Tier 3; сертификаты ISO 27001 и ISO 9001</p>
+                  </div>
+                </div>
+                <div class="about-us__text-item">
+                  <div class="about-us__text-title">Связность</div>
+                  <div class="about-us__text">
+                    <p>Благодаря этому нашим клиентам обеспечиваются наиболее выгодные на отечественном рынке условия для стабильной и безотказной работы их информационных систем и телекоммуникационного оборудования.</p>
+                  </div>
+                </div>
+                <div class="about-us__text-item">
+                  <div class="about-us__text-title">Место размещения платформы</div>
+                  <div class="about-us__text">
+                    <p>ООО «СДН» (SDN) – профессиональная команда, оказывающая полный спектр услуг ДЦ-аутсорсинга – от предоставления в аренду готовых к подключению мест в телекоммуникационных шкафах и серверных модулях до разработки комплекса мер по защите бизнеса клиентов от ИКТ-рисков (DRP-консалтинг).</p>
+                    <p>SDN владеет патентом на одно из самых передовых решений в сфере создания, эксплуатации и развития энергоэффективных модульных дата-центров. Благодаря этому нашим клиентам обеспечиваются наиболее выгодные на отечественном рынке условия для стабильной и безотказной работы их информационных систем и телекоммуникационного оборудования.</p>
+                    <p>Наивысший приоритет в отношениях SDN с клиентами – качество в решении стоящих перед ним ИТ- и бизнес-задач. Вместе с тем  мы ценим деньги и время своих клиентов, поэтому позаботились о том, чтобы им не приходилось переплачивать за труд раздутого штата менеджеров и юристов, дублирующих работу друг друга.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="excursions">
+        <div class="container">
+          <div class="excursions__container">
+            <div class="row">
+              <div class="excursions__bg"><img class="about-us__bg-img" src="upload/bitmap_8.jpg" srcset="upload/bitmap_8@2x.jpg 2x, upload/bitmap_8@3x.jpg 3x">
+                <div class="excursions__ie-fallback" style="background:url(upload/bitmap_8.jpg) center center; background-size: cover;"></div>
+              </div>
+              <div class="col-lg-7 col-lg-offset-1">
+                <div class="excursions__title">Экскурсия</div>
+                <div class="excursions__sub-title">Закажите эксурсию в наш ЦОД, обещаем нам есть чем удивить</div>
+              </div>
+              <div class="col-lg-4"><a class="btn-dft" href="#">Перезвонить мне</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feedback js-slider-wrapper">
+        <div class="container feedback__container">
+          <div class="feedback__title title-dft">Наши отзывы</div>
+          <div class="feedback__slider-wrapper">
+            <div class="feedback__arrows"><a class="feedback__arrow feedback__arrow--left js-arrows" href="#" data-slider="slickPrev">
+                <svg class="icon icon-left ">
+                  <use xlink:href="images/svgsprite/sprite.svg#left"></use>
+                </svg></a><a class="feedback__arrow feedback__arrow--right js-arrows" href="#" data-slider="slickNext">
+                <svg class="icon icon-right ">
+                  <use xlink:href="images/svgsprite/sprite.svg#right"></use>
+                </svg></a></div>
+          </div>
+          <div class="feedback__slider-wrapper js-slider index-slider">
+            <div class="feedback__slide">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="feedback__image-wrap"><img src="upload/bitmap_7.jpg" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feedback__slide-title">Максим Колесников, ПАО «ВымпелКом»</div>
+                  <div class="feedback__slide-text">
+                    Отличные ребята, отличное качество работы. Пробовал много различных VDS, скажу даже больше, не то что в россии, а по всему интернету не нашел никого адекватнее и ответственнее. Жаль, что приходится Сингапур, Японию и США арендовать у других сомнительных личностей, с удовольствием платил бы сдн. Если кто вдруг читает - не верьте, пока не попробуете сами. Лично в моем опыте работы конфузов не было!
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__slide">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="feedback__image-wrap"><img src="upload/bitmap_7.jpg" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feedback__slide-title">Максим Колесников, ПАО «ВымпелКом»</div>
+                  <div class="feedback__slide-text">
+                    Отличные ребята, отличное качество работы. Пробовал много различных VDS, скажу даже больше, не то что в россии, а по всему интернету не нашел никого адекватнее и ответственнее. Жаль, что приходится Сингапур, Японию и США арендовать у других сомнительных личностей, с удовольствием платил бы сдн. Если кто вдруг читает - не верьте, пока не попробуете сами. Лично в моем опыте работы конфузов не было!
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__slide">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="feedback__image-wrap"><img src="upload/bitmap_7.jpg" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feedback__slide-title">Максим Колесников, ПАО «ВымпелКом»</div>
+                  <div class="feedback__slide-text">
+                    Отличные ребята, отличное качество работы. Пробовал много различных VDS, скажу даже больше, не то что в россии, а по всему интернету не нашел никого адекватнее и ответственнее. Жаль, что приходится Сингапур, Японию и США арендовать у других сомнительных личностей, с удовольствием платил бы сдн. Если кто вдруг читает - не верьте, пока не попробуете сами. Лично в моем опыте работы конфузов не было!
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__slide">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="feedback__image-wrap"><img src="upload/bitmap_7.jpg" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feedback__slide-title">Максим Колесников, ПАО «ВымпелКом»</div>
+                  <div class="feedback__slide-text">
+                    Отличные ребята, отличное качество работы. Пробовал много различных VDS, скажу даже больше, не то что в россии, а по всему интернету не нашел никого адекватнее и ответственнее. Жаль, что приходится Сингапур, Японию и США арендовать у других сомнительных личностей, с удовольствием платил бы сдн. Если кто вдруг читает - не верьте, пока не попробуете сами. Лично в моем опыте работы конфузов не было!
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__slide">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="feedback__image-wrap"><img src="upload/bitmap_7.jpg" alt=""></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="feedback__slide-title">Максим Колесников, ПАО «ВымпелКом»</div>
+                  <div class="feedback__slide-text">
+                    Отличные ребята, отличное качество работы. Пробовал много различных VDS, скажу даже больше, не то что в россии, а по всему интернету не нашел никого адекватнее и ответственнее. Жаль, что приходится Сингапур, Японию и США арендовать у других сомнительных личностей, с удовольствием платил бы сдн. Если кто вдруг читает - не верьте, пока не попробуете сами. Лично в моем опыте работы конфузов не было!
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <div class="container">
+          <div class="partners__title title-dft">С нами работают</div>
+          <div class="partners__list"><a class="partners__link" href="#"><img src="upload/bitmap_4.jpg" srcset="upload/bitmap_4@2x.jpg 2x, upload/bitmap_4@3x.jpg 3x" alt="partner image"></a><a class="partners__link" href="#"><img src="upload/bitmap_3.jpg" srcset="upload/bitmap_3@2x.jpg 2x, upload/bitmap_3@3x.jpg 3x" alt="partner image"></a><a class="partners__link" href="#"><img src="upload/bitmap_5.jpg" srcset="upload/bitmap_5@2x.jpg 2x, upload/bitmap_5@3x.jpg 3x" alt="partner image"></a><a class="partners__link" href="#"><img src="upload/bitmap.jpg" srcset="upload/bitmap@2x.jpg 2x, upload/bitmap@3x.jpg 3x" alt="partner image"></a><a class="partners__link" href="#"><img src="upload/bitmap_2.jpg" srcset="upload/bitmap_2@2x.jpg 2x, upload/bitmap_2@3x.jpg 3x" alt="partner image"></a><a class="partners__link" href="#"><img src="upload/bitmap_6.jpg" srcset="upload/bitmap_6@2x.jpg 2x, upload/bitmap_6@3x.jpg 3x" alt="partner image"></a></div>
+        </div>
+      </div>
+      <div class="callback">
+        <div class="container">
+          <div class="callback__title title-dft">Форма обратной связи</div>
+          <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 text-center callback__sub-title">
+              <p>Если у Вас остались вопросы, вы можете оставить заявку.<br> Мы вам перезвоним и проконсультируем.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+              <form id="callback-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Ваше имя" name="name">
+                </div>
+                <div class="form-group">
+                  <input type="number" placeholder="Номер телефона" name="phone">
+                </div>
+                <div class="form-group text-center">
+                  <button class="btn-dft" type="submit">Перезвонить мне</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="wrapper footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 clearfix"><a class="footer__logo" href=""><img src="images/xelent.svg" width="180" height="55" alt="logo"></a></div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Colocation</a><a class="footer__title" href="#">IaaS</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Dedicated</a></div>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Предложение</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Агентская программма</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Акции</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Отраслевые решения</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Дополнительные услуги</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Пресс-Центр</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Новости</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Блог</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Брендбук</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Фото</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Видео</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Документы</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">О Компании</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Дата-центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Карьера</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Партнеры</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Клиенты</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">История компании</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Руководство</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Контакты</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-xl-push-4 col-md-push-3">
+              <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                    <svg class="icon icon-tw ">
+                      <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                    <svg class="icon icon-g ">
+                      <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                    <svg class="icon icon-ok ">
+                      <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                    <svg class="icon icon-habr ">
+                      <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                    </svg></span></a></div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-xl-pull-4 col-md-pull-6"><a class="copyright__link" href="#">© 2011– 2017 Stackdata.net</a></div>
+            <div class="col-xl-4 col-md-3 text-md-right"><a class="copyright__made-by" href="#">Разработано в<span class="icon-wrap">
+                  <svg class="icon icon-bquadro ">
+                    <use xlink:href="images/svgsprite/sprite.svg#bquadro"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+</html>

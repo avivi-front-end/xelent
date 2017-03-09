@@ -1,0 +1,30 @@
+.ie-10,
+.ie-11 {
+    .header__bottom-wrap {
+        margin-bottom: -36px;
+    }
+
+    .top-slider__ie-fallback {
+        display: block;
+    }
+
+    .top-slider__bg-img img {
+        display: none;
+    }
+
+    .about-us__ie-fallback {
+        display: block;
+    }
+
+    .about-us__bg img {
+        display: none;
+    }
+
+    .excursions__ie-fallback {
+        display: block;
+    }
+
+    .excursions__bg img {
+        display: none;
+    }
+}

@@ -1,0 +1,248 @@
+.contacts {
+    &__item {
+        margin-bottom: 47px;
+    }
+
+    &__title {
+        font-family: $robotomed;
+        font-size: 18px;
+        line-height: 1.39;
+        color: $brownish-grey;
+        margin-bottom: 13px;
+    }
+
+    &__link-phone {
+        display: block;
+        font-family: $robotolight;
+        font-size: 19px;
+        line-height: 1.58;
+        color: $brownish-grey;
+        text-decoration: none;
+    }
+
+    &__link-mail {
+        display: block;
+        font-size: 18px;
+        line-height: 1.67;
+        color: $pinkish-red;
+        text-decoration: none;
+    }
+}
+
+.map {
+    height: 700px;
+    margin-bottom: 39px;
+    @media (max-width: $screen-sm-max) {
+        height: auto;
+
+        #map {
+            height: 500px;
+        }
+    }
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__info-wrap {
+        @include position(absolute, 0 null null 5px);
+        transform: translateY(45px);
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 0 39px 0 rgba(0, 0, 0, 0.26);
+        border: solid 1px #eaeaea;
+        z-index: 1;
+        width: 100%;
+        @media (max-width: $screen-sm-max) {
+            position: static;
+            transform: none;
+            box-shadow: none;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__info-head {
+        height: 69px;
+        // padding-left: 40px;
+        // padding-right: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        border-bottom: 1px solid #dadada;
+        position: relative;
+        @media (max-width: $screen-sm-max) {
+            display: block;
+            height: auto;
+            @include clearfix();
+        }
+    }
+
+    &__info-body {
+        padding: 28px 30px 46px;
+        @media (max-width: $screen-sm-max) {
+            padding: 15px;
+        }
+    }
+
+    &__head-link {
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        font-family: $robotomed;
+        font-size: 18px;
+        line-height: 1.39;
+        color: $pinkish-grey;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        text-transform: uppercase;
+
+        span {
+            width: 100%;
+            display: block;
+        }
+
+        &.active {
+            color: $brownish-grey;
+            position: relative;
+
+            &:before {
+                content: '';
+                @include position(absolute, null 0 -1px 0);
+                height: 2px;
+                width: 200px;
+                background: $pinkish-red;
+                margin: auto;
+                @media (max-width: $screen-sm-max) {
+                    width: 100%;
+                }
+            }
+        }
+        @media (max-width: $screen-sm-max) {
+            padding: 15px;
+            font-size: 16px;
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__info-adress {
+        font-family: $robotomed;
+        font-size: 19px;
+        line-height: 1.58;
+        color: $brownish-grey;
+        margin-bottom: 42px;
+        @media (max-width: $screen-sm-max) {
+            font-size: 17px;
+        }
+    }
+
+    &__info-title {
+        font-family: $robotomed;
+        font-size: 18px;
+        line-height: 1.39;
+        color: $brownish-grey;
+        margin-bottom: 13px;
+    }
+
+    &__mail-inner {
+        margin-bottom: 5px;
+    }
+
+    &__info-link {
+        font-family: $robotolight;
+        font-size: 19px;
+        line-height: 1.58;
+        color: $brownish-grey;
+        text-decoration: none;
+    }
+
+    &__link-wrapper {
+        span {
+            font-family: $robotolight;
+            font-size: 19px;
+            line-height: 1.58;
+            color: $brownish-grey;
+            text-decoration: none;
+        }
+    }
+
+    &__mail-link {
+        font-size: 18px;
+        line-height: 1.67;
+        color: $pinkish-red;
+        text-decoration: none;
+    }
+
+    &__mail-wrapper {
+        span {
+            font-family: $robotolight;
+            font-size: 15px;
+            line-height: 1.33;
+            color: $brownish-grey;
+        }
+    }
+
+    &__info-inner {
+        margin-bottom: 32px;
+    }
+
+    &__skype {
+        position: relative;
+        padding-left: 37px;
+        font-size: 18px;
+        line-height: 1.67;
+        color: #00aaf2;
+        text-decoration: none;
+        margin-top: 24px;
+        display: inline-block;
+
+        &:before {
+            content: '';
+            @include position(absolute, 5px null null 1px);
+            background: url("../images/svg/skype.svg") no-repeat;
+            width: 26px;
+            height: 22px;
+        }
+    }
+
+    &__info-wrapper {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}
+
+.how-get {
+    padding-bottom: 46px;
+
+    &__item {
+        &:not(:last-child) {
+
+            @media (min-width: $screen-md-min) {
+                margin-bottom: 45px;
+            }
+        }
+    }
+
+    &__item-title {
+
+        @media (min-width: $screen-md-min) {
+            margin-bottom: 19px;
+        }
+    }
+
+    &__image {
+        @media (min-width: $screen-md-min) {
+            margin-top: 22px;
+        }
+    }
+}
+
+#map {
+    height: 100%;
+}

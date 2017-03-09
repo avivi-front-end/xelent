@@ -1,0 +1,138 @@
+.doc-btn {
+    border-radius: 4px;
+    background: #fff;
+    border: solid 1px $white-two;
+    height: 50px;
+    // min-width: 190px;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: $robotolight;
+    font-size: 16px;
+    text-align: center;
+    color: $pinkish-red;
+    transition: 0.3s ease;
+    display: inline-block;
+
+    &__icon {
+        border-right: 1px solid $white-two;
+        width: 50px;
+        position: relative;
+        height: 100%;
+        float: left;
+
+        svg {
+            width: 30px;
+            height: 20px;
+            @include position(absolute, 0 0 0 0);
+            margin: auto;
+        }
+
+        &--download {
+            svg {
+                width: 24px;
+                height: 16px;
+            }
+        }
+    }
+
+    &__text {
+        display: block;
+        width: calc(100% - 50px);
+        text-align: center;
+        text-decoration: none;
+        float: left;
+        line-height: 46px;
+        padding: 0 34px;
+    }
+
+    &__size {
+        display: inline-block;
+        margin-left: 5px;
+        font-size: 10px;
+        color: $pinkish-red;
+    }
+
+    &:hover {
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.2);
+        border-color: #fff;
+        transition: 0.3s ease;
+    }
+}
+
+.documents {
+    &__wrap-title {
+        margin-bottom: 19px;
+    }
+
+    &__wrap-sub-title {
+        margin-bottom: 52px;
+    }
+
+    &__item {
+        margin-bottom: 60px;
+    }
+
+    &__wrap {
+        &:not(:first-child) {
+            padding-top: 44px;
+        }
+
+        &:not(:last-child) {
+            border-bottom: 2px solid $white-two;
+        }
+    }
+
+    &__img-wrap {
+        @media (min-width: $screen-lg-min) {
+            float: left;
+            width: 160px;
+        }
+        @media (max-width: $screen-md-max) {
+            max-width: 220px;
+            margin: 0 auto 30px;
+        }
+    }
+
+    &__text-wrap {
+        @media (min-width: $screen-lg-min) {
+            float: left;
+            width: calc(100% - 160px);
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+    }
+
+    &__sub-title {
+        font-size: 15px;
+        font-family: $robotolight;
+        line-height: 1.35;
+        color: $brownish-grey;
+        margin-bottom: 25px;
+    }
+
+    &__title {
+        font-family: $robotomed;
+        font-size: 18px;
+        line-height: 1.39;
+        color: $brownish-grey;
+        margin-bottom: 9px;
+    }
+
+    &__icon-wrap {
+        @include aspect-ratio(160,226);
+        box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2);
+
+        svg {
+            @include position(absolute, 0 0 0 0);
+            width: 104px;
+            height: 120px;
+            margin: auto;
+        }
+        @media (max-width: $screen-md-max) {
+            max-width: 220px;
+            margin: 0 auto 30px;
+        }
+    }
+}

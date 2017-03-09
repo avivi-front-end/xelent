@@ -1,0 +1,211 @@
+.container
+    h1 H1-Чукча в чуме чистит чуни.
+    h2 H2-Чукча в чуме чистит чуни.
+    h3 H3-Чукча в чуме чистит чуни.
+    h4 H4-Чукча в чуме чистит чуни.
+    h5 H5-Чукча в чуме чистит чуни.
+    h6 H6-Чукча в чуме чистит чуни.
+    p.
+        В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.
+    p.
+        Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт или звонком по телефону ((812)-390-0003).
+    p.
+        Постоянно присутствующие на площадке дежурные смены специалистов по инсталляции обеспечивают запуск в работу оборудования заказчика не позднее, чем через 24 часа.
+    .row
+        .col-md-8
+            ul.list-dft
+                li.
+                    дата-центр;
+                li.
+                    комфортный для работы административно-бытовой корпус, соединённый переходами с дата-центром;
+                li.
+                    складские помещения со специально оборудованными погрузочно-разгрузочными зонами;
+                li.
+                    собственная охраняемая парковка.
+    p.
+        В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.
+    .row
+        .col-md-8
+            ol.order-list-dft
+                li.
+                    дата-центр;
+                li.
+                    комфортный для работы административно-бытовой корпус, соединённый переходами с дата-центром;
+                li.
+                    складские помещения со специально оборудованными погрузочно-разгрузочными зонами;
+                li.
+                    собственная охраняемая парковка.
+
+    p.
+        В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.
+    .row
+        .col-md-10
+            blockquote
+                p.
+                    Это цитата. В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи.
+.container
+    .row
+        .col-md-6.clearfix
+            .clearfix
+                a(href="#").footer__title.
+                    IaaS
+            - var list1 = ['Пакетные тарифы IaaS','Удаленные рабочие места','Виртуальный дата центр','152 ФЗ','Облачное хранилище']
+            ul.footer__list
+                each list1item in list1
+                    li.footer__list-item
+                        a(href="#").footer__item= list1item
+        .col-md-6
+            a(href="#").info-link Подробнее о услуге
+
+            ul.breadcrumbs
+                li
+                    a(href="#").breadcrumbs__link Главная
+                li
+                    a(href="#").breadcrumbs__link Пресс-Центр
+                li
+
+.container
+    .row
+        .col-md-4
+            .form-group
+                input(type="text" placeholder="Ваше имя" value="Отключен" readonly).disabled
+            .form-group
+                input(type="text" placeholder="Ваше имя")
+            .form-group
+                label.form-group__label Готов для ввода
+                input(type="text" placeholder="Сюда вводить текст")
+                label.form-group__helper Тут можно будет подсказать что-нибудь.
+            .form-group
+                label.form-group__label.error Ошибка
+                input(type="text" placeholder="Ваше имя")
+                label.error Тут можно будет подсказать что-нибудь.
+        .col-md-6.col-md-offset-2
+            .clearfix
+                .testing__params-slider
+                    .js-params-slider.range-slider(data-value="2" data-min="0" data-max="10" data-step="1")
+            br
+            a.btn-dft.disabled Недоступно
+            br
+            br
+            a(href="#").btn-dft Активная
+            br
+            br
+            a(href="#").btn-dft.btn-dft--border Хочу у вас работать!
+            .clearfix
+
+.container
+    .row
+        .col-md-6
+            label.input-wrapper
+                input(type="checkbox")
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (активная)
+            label.input-wrapper
+                input(type="checkbox" disabled)
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (неактивная)
+            label.input-wrapper
+                input(type="checkbox" checked)
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (выбрано)
+            label.input-wrapper
+                input(type="checkbox" disabled checked)
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (выбрано неактивная)
+        .col-md-6
+            label.input-wrapper
+                input(type="radio")
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (активная)
+            label.input-wrapper
+                input(type="radio" disabled)
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (неактивная)
+            label.input-wrapper
+                input(type="radio" checked)
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (выбрано)
+            label.input-wrapper
+                input(type="radio" disabled checked)
+                span.input-wrapper__icon
+                span.input-wrapper__name Check-box Описание (выбрано неактивная)
+
+.container
+    .table-wrapper
+        table
+            thead
+                tr
+                    th.
+                        Значение
+                    th.
+                        Колонка 2
+                    th.
+                        Колонка 3
+                    th.
+                        Колонка 4
+            tbody
+                - for (var x = 0; x < 5; x++)
+                    tr
+                        td.
+                            Сервер 1
+                        td.
+                            0,025
+                        td.
+                            1,368
+                        td.
+                            Январь
+.container
+    ul.pagination
+        li.pagination__nav-btn.prev
+            a(href="#")
+                +icon('prev')
+        li
+            a(href="#") 1
+        li
+            a(href="#").active 2
+        li
+            a(href="#") 3
+        li
+            a(href="#") 4
+        li
+            a(href="#") 5
+        li
+            a(href="#") 6
+        li
+            a(href="#") 7
+        li
+            a(href="#") 8
+        li
+            a(href="#") ...
+        li
+            a(href="#") 89
+        li
+            a(href="#") 90
+        li
+            a(href="#") 91
+        li.pagination__nav-btn.next
+            a(href="#")
+                +icon('next')
+
+.container
+    .row
+        .col-xl-4.col-md-6
+            .socials__social-wrap.text-center
+                a(href="#").socials__social-link.socials__social-link--facebook
+                    span
+                        +icon('facebook')
+                a(href="#").socials__social-link.socials__social-link--tw
+                    span
+                        +icon('tw')
+                a(href="#").socials__social-link.socials__social-link--g
+                    span
+                        +icon('g')
+                a(href="#").socials__social-link.socials__social-link--vk
+                    span
+                        +icon('vk')
+                a(href="#").socials__social-link.socials__social-link--ok
+                    span
+                        +icon('ok')
+                a(href="#").socials__social-link.socials__social-link--habr
+                    span
+                        +icon('habr')

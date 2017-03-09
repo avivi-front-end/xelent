@@ -1,0 +1,21 @@
+.pop-up#callback-pop-up(style="display:none;")
+    a(href="#" data-fancybox-close).pop-up__close.js-close-pop-up
+        +icon ('close')
+    h3.pop-up__title.text-center.color-grey Заказать звонок
+    form
+        .pop-up__wrapper
+            .form-group
+                label
+                    input(type="text")
+                    span.input-placeholder Представьтесь
+            .form-group
+                label
+                    input(type="text")
+                    span.input-placeholder Компания
+            .form-group
+                label
+                    input(type="text")
+                    span.input-placeholder Номер
+            .form-group.text-center.pop-up__submit-wrap
+                button(type="submit").btn-dft.
+                    Перезвонить мне

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="25px" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <g>
+        <g id="etalon" transform="translate(-150.000000, -3904.000000)">
+            <g id="paging" transform="translate(150.000000, 3895.000000)">
+                <g id="arrow-l">
+                    <polygon id="Combined-Shape" points="24 23 24 20 6.22182541 20 14.6213203 11.6005051 12.5 9.47918472 0.47918472 21.5 12.5 33.5208153 14.6213203 31.3994949 6.22182541 23"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

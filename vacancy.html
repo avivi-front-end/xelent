@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ie-detector.js"></script>
+    <script src="js/modernizr.js"></script><!--[if lt IE 7]>  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+  </head>
+  <div class="pop-up" id="callback-pop-up" style="display:none;"><a class="pop-up__close js-close-pop-up" href="#" data-fancybox-close>
+      <svg class="icon icon-close ">
+        <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+      </svg></a>
+    <h3 class="pop-up__title text-center color-grey">Заказать звонок</h3>
+    <form>
+      <div class="pop-up__wrapper">
+        <div class="form-group">
+          <label>
+            <input type="text"><span class="input-placeholder">Представьтесь</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            <input type="text"><span class="input-placeholder">Компания</span>
+          </label>
+        </div>
+        <div class="form-group">
+          <label>
+            <input type="text"><span class="input-placeholder">Номер</span>
+          </label>
+        </div>
+        <div class="form-group text-center pop-up__submit-wrap">
+          <button class="btn-dft" type="submit">Перезвонить мне</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="page-wrapper" id="page-wrapper">
+    <header class="wrapper header" id="header">
+      <div class="header__top-wrap">
+        <div class="container">
+          <div class="header__top-wrapper clearfix"><a class="header__logo" href="index.html"><img src="images/xelent.svg" width="180" height="55" alt="logo"></a>
+            <div class="header__feedback-wrap clearfix">
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Санкт-Петербург</div><a class="header__feedback-link" href="#">+7 812 319-00-04</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Москва</div><a class="header__feedback-link" href="#">8 495 980-60-09</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Поддержка</div><a class="header__feedback-link" href="#">8 812 319-00-03</a>
+              </div>
+            </div><a class="header__mail" href="#">sales@stackdata.net</a><a class="header__search js-show-search" href="#">
+              <svg class="icon icon-search ">
+                <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+              </svg></a>
+            <div class="header__search-wrap">
+              <button class="header__search-submit" type="submit">
+                <svg class="icon icon-search ">
+                  <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <input class="header__search-input" type="text" placeholder="Поиск"><a class="header__search-wrap-close js-close-search" href="#">
+                <svg class="icon icon-close ">
+                  <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom-wrap">
+        <div class="container"><a class="header__mobile js-show-menu" href="#"><span></span></a>
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Colocation</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">IaaS</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Dedicated</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Предложение</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">О Компании</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">
+                          Виртуальный дата цент
+                          </a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Пресс-Центр</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="page-body" id="page-body">
+      <div class="section-dft section-dft--border">
+        <div class="container"><a class="shares-banner" href="#"><img src="upload/shares.jpg" srcset="upload/shares@2x.jpg 2x, upload/shares@3x.jpg 3x"></a></div>
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li><a class="breadcrumbs__link" href="#">Главная</a></li>
+            <li><a class="breadcrumbs__link" href="#">Услуги</a></li>
+            <li><a class="breadcrumbs__link" href="#">Cloud</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <h1>Принципы работы компании</h1>
+          <p>«OOO «СДН» (SDN)» работает в зарождающейся сфере онлайн-образования. Сегодня это - открытый космос. Здесь нет стандартов и формул успеха. Есть - поиск и эксперимент. Существующие подходы к образованию стремительно устаревают. Новые концепции, методики и инструменты образования предстоит создать нам, первопроходцам этого направления. Вам тоже интересна тема образования будущего? Вы хотите создавать его вместе с нами? Пишите!</p>
+          <div class="vacancy__principles">
+            <div class="row">
+              <div class="col-md-6 services__bonus-item js-height">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-5">
+                    <div class="why-us__image-wrap"><img src="upload/vacancy-illustartion-1.svg"></div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7">
+                    <div class="why-us__title">Карьера</div>
+                    <div class="service-page__text">
+                      <p>
+                        В Компании разработана Программа адаптации для вновь принятых работников, которая поможет новому сотруднику проще адаптироваться в коллективе. Позитивная и дружеская атмосфера позволит быстро освоиться на новом рабочем месте.
+                        
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 services__bonus-item js-height">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-5">
+                    <div class="why-us__image-wrap"><img src="upload/vacancy-illustartion-2.svg"></div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7">
+                    <div class="why-us__title">Компетенции</div>
+                    <div class="service-page__text">
+                      <p>
+                        Дата Центр в Санкт-Петербурге – самая крупная и современная в Северо-Западном регионе и одна из лучших в Европе технологическая площадка. А значит, выбирая карьеру в ООО «СДН», вы обеспечиваете свое будущее на годы вперед!
+                        
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 services__bonus-item js-height">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-5">
+                    <div class="why-us__image-wrap"><img src="upload/vacancy-illustartion-3.svg"></div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7">
+                    <div class="why-us__title">Наставничество</div>
+                    <div class="service-page__text">
+                      <p>
+                        Каждый сотрудник ООО «СДН» приобретает профессиональный опыт и навыки, которыми он делится с коллегами и новичками. Наставничество является неотъемлемой составляющей роста компании и развития корпоративной культуры.
+                        
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 services__bonus-item js-height">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-5">
+                    <div class="why-us__image-wrap"><img src="upload/vacancy-illustartion-4.svg"></div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7">
+                    <div class="why-us__title">Работа в перспективной компании</div>
+                    <div class="service-page__text">
+                      <p>
+                        Наша компания молодая и перспективная, а значит перед вами открываются возможности для быстрого карьерного роста.
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 services__bonus-item js-height">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-5">
+                    <div class="why-us__image-wrap"><img src="upload/vacancy-illustartion-5.svg"></div>
+                  </div>
+                  <div class="col-xl-8 col-lg-7">
+                    <div class="why-us__title">Вакансии</div>
+                    <div class="service-page__text">
+                      <p>
+                        Мы привлекаем на работу в Компанию лучших специалистов – грамотных профессионалов с активной жизненной позицией. Эффективная команда – основные ценности, которые лежат в основе отношений Компании со своими сотрудниками.
+                        
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-dft section-dft--border vacancy">
+        <div class="container">
+          <div class="text-center">
+            <h3 class="color-grey vacancy__title">Вакансии</h3>
+          </div>
+        </div>
+        <div class="container js-tab-wrapper">
+          <div class="row">
+            <div class="col-lg-3 vacancy__aside-wrapper">
+              <div class="vacancy__aside">
+                <div class="vacancy__aside-head">Вакансии отдела:</div>
+                <div class="vacancy__aside-list"><a class="vacancy__aside-link js-tab-link active" href="#vacancy-1">Продаж</a><a class="vacancy__aside-link js-tab-link" href="#vacancy-2">Маркетинга</a><a class="vacancy__aside-link js-tab-link" href="#vacancy-3">Закупок</a><a class="vacancy__aside-link js-tab-link" href="#vacancy-4">Обслуживания</a><a class="vacancy__aside-link js-tab-link" href="#vacancy-5">Эксплуатации</a><a class="vacancy__aside-link js-tab-link" href="#vacancy-6">Все</a></div>
+              </div>
+              <div class="text-center"><a class="btn-dft btn-dft--border" data-fancybox data-src="#callback-pop-up" href="javascript:;">Хочу у вас работать!</a></div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-1">
+              <div class="vacancy__body active js-acc-wrapper js-tab-item" id="vacancy-1">
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link active" href="#">Менеджер по продажам<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body" style="display:block;">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Требование к кандидату</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (VIP клиенты)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам интернет-рекламы<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (веб-сайтов)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам в Отдел по работе с партнерами<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+              </div>
+              <div class="vacancy__body js-acc-wrapper js-tab-item" id="vacancy-2">
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (VIP клиенты)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам интернет-рекламы<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (веб-сайтов)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам в Отдел по работе с партнерами<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+              </div>
+              <div class="vacancy__body js-acc-wrapper js-tab-item" id="vacancy-3">
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link active" href="#">Менеджер по продажам<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body" style="display:block;">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам интернет-рекламы<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (веб-сайтов)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам в Отдел по работе с партнерами<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+              </div>
+              <div class="vacancy__body js-acc-wrapper js-tab-item" id="vacancy-4">
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link active" href="#">Менеджер по продажам<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body" style="display:block;">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (VIP клиенты)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам интернет-рекламы<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (веб-сайтов)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам в Отдел по работе с партнерами<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+              </div>
+              <div class="vacancy__body js-acc-wrapper js-tab-item" id="vacancy-5">
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link active" href="#">Менеджер по продажам<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body" style="display:block;">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (VIP клиенты)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам интернет-рекламы<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (веб-сайтов)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам в Отдел по работе с партнерами<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+              </div>
+              <div class="vacancy__body js-acc-wrapper js-tab-item" id="vacancy-6">
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link active" href="#">Менеджер по продажам<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body" style="display:block;">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (VIP клиенты)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам интернет-рекламы<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам (веб-сайтов)<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+                <div class="vacancy__item"><a class="vacancy__item-head js-acc-link" href="#">Менеджер по продажам в Отдел по работе с партнерами<span class="vacancy__item-icon"><span></span></span></a>
+                  <div class="vacancy__item-inner js-acc-body">
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul>
+                    <div class="vacancy__item-inner-title">Описание вакансии</div>
+                    <ul class="list-dft">
+                      <li>продажа напольных грязезащитных покрытий (премиум сегмент) американской компании 3М,</li>
+                      <li>активный поиск клиентов в определённом сегменте (гостиницы),</li>
+                      <li>грамотное ведение переговоров, выезд к клиенту на объект,</li>
+                      <li>получение заказа, подготовка коммерческих предложений,</li>
+                      <li>
+                        отслеживание этапов сделки, согласование с заказчиком
+                        
+                      </li>
+                    </ul><a class="btn-dft" data-fancybox data-src="#callback-pop-up" href="javascript:;">Откликнуться</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="wrapper footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 clearfix"><a class="footer__logo" href=""><img src="images/xelent.svg" width="180" height="55" alt="logo"></a></div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Colocation</a><a class="footer__title" href="#">IaaS</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Dedicated</a></div>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Предложение</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Агентская программма</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Акции</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Отраслевые решения</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Дополнительные услуги</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Пресс-Центр</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Новости</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Блог</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Брендбук</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Фото</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Видео</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Документы</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">О Компании</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Дата-центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Карьера</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Партнеры</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Клиенты</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">История компании</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Руководство</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Контакты</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-xl-push-4 col-md-push-3">
+              <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                    <svg class="icon icon-tw ">
+                      <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                    <svg class="icon icon-g ">
+                      <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                    <svg class="icon icon-ok ">
+                      <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                    <svg class="icon icon-habr ">
+                      <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                    </svg></span></a></div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-xl-pull-4 col-md-pull-6"><a class="copyright__link" href="#">© 2011– 2017 Stackdata.net</a></div>
+            <div class="col-xl-4 col-md-3 text-md-right"><a class="copyright__made-by" href="#">Разработано в<span class="icon-wrap">
+                  <svg class="icon icon-bquadro ">
+                    <use xlink:href="images/svgsprite/sprite.svg#bquadro"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+</html>

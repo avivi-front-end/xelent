@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ie-detector.js"></script>
+    <script src="js/modernizr.js"></script><!--[if lt IE 7]>  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+  </head>
+  <div class="page-wrapper" id="page-wrapper">
+    <header class="wrapper header" id="header">
+      <div class="header__top-wrap">
+        <div class="container">
+          <div class="header__top-wrapper clearfix"><a class="header__logo" href="index.html"><img src="images/xelent.svg" width="180" height="55" alt="logo"></a>
+            <div class="header__feedback-wrap clearfix">
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Санкт-Петербург</div><a class="header__feedback-link" href="#">+7 812 319-00-04</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Москва</div><a class="header__feedback-link" href="#">8 495 980-60-09</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Поддержка</div><a class="header__feedback-link" href="#">8 812 319-00-03</a>
+              </div>
+            </div><a class="header__mail" href="#">sales@stackdata.net</a><a class="header__search js-show-search" href="#">
+              <svg class="icon icon-search ">
+                <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+              </svg></a>
+            <div class="header__search-wrap">
+              <button class="header__search-submit" type="submit">
+                <svg class="icon icon-search ">
+                  <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <input class="header__search-input" type="text" placeholder="Поиск"><a class="header__search-wrap-close js-close-search" href="#">
+                <svg class="icon icon-close ">
+                  <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom-wrap">
+        <div class="container"><a class="header__mobile js-show-menu" href="#"><span></span></a>
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Colocation</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">IaaS</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Dedicated</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Предложение</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">О Компании</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">
+                          Виртуальный дата цент
+                          </a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Пресс-Центр</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="page-body" id="page-body">
+      <div class="section-dft">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li><a class="breadcrumbs__link" href="#">Главная</a></li>
+            <li><a class="breadcrumbs__link" href="#">Пресс-Центр</a></li>
+            <li><a class="breadcrumbs__link" href="#">Документы</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <h1>Документы</h1>
+        </div>
+        <div class="documents__main-wrapper">
+          <div class="documents__wrap">
+            <div class="container">
+              <h3 class="color-grey documents__wrap-title">Лицензии</h3>
+              <p class="documents__wrap-sub-title">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт.</p>
+              <div class="row">
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap"><img src="upload/license-1.jpg" srcset="upload/license-1@2x.jpg 2x, upload/license-1@3x.jpg 3x"></div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Лицензия №90186731</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon">
+                        <svg class="icon icon-eye-icon ">
+                          <use xlink:href="images/svgsprite/sprite.svg#eye-icon"></use>
+                        </svg></span><span class="doc-btn__text">Смотреть</span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap"><img src="upload/license-1.jpg" srcset="upload/license-1@2x.jpg 2x, upload/license-1@3x.jpg 3x"></div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Лицензия №90186731</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon">
+                        <svg class="icon icon-eye-icon ">
+                          <use xlink:href="images/svgsprite/sprite.svg#eye-icon"></use>
+                        </svg></span><span class="doc-btn__text">Смотреть</span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap"><img src="upload/license-1.jpg" srcset="upload/license-1@2x.jpg 2x, upload/license-1@3x.jpg 3x"></div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Лицензия №90186731</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon">
+                        <svg class="icon icon-eye-icon ">
+                          <use xlink:href="images/svgsprite/sprite.svg#eye-icon"></use>
+                        </svg></span><span class="doc-btn__text">Смотреть</span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap"><img src="upload/license-1.jpg" srcset="upload/license-1@2x.jpg 2x, upload/license-1@3x.jpg 3x"></div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Лицензия №90186731</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon">
+                        <svg class="icon icon-eye-icon ">
+                          <use xlink:href="images/svgsprite/sprite.svg#eye-icon"></use>
+                        </svg></span><span class="doc-btn__text">Смотреть</span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap"><img src="upload/license-2.jpg" srcset="upload/license-2@2x.jpg 2x, upload/license-2@3x.jpg 3x"></div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Лицензия №90186731</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon">
+                        <svg class="icon icon-eye-icon ">
+                          <use xlink:href="images/svgsprite/sprite.svg#eye-icon"></use>
+                        </svg></span><span class="doc-btn__text">
+                        Смотреть
+                        </span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="documents__wrap">
+            <div class="container">
+              <h3 class="color-grey documents__wrap-title">Договора</h3>
+              <p class="documents__wrap-sub-title">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт.</p>
+              <div class="row">
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-d-o-c-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#d-o-c-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Договор аренды</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">.doc (2,3 Mb)</span></span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-d-o-c-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#d-o-c-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Договор лояльности</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">
+                          .doc (2,3 Mb)
+                          
+                          
+                          </span></span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-d-o-c-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#d-o-c-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Договор на честность</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">.doc (2,3 Mb)</span></span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-x-m-l-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#x-m-l-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Безвозмездный договор</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">.xml (2,3 Mb)</span></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="documents__wrap">
+            <div class="container">
+              <h3 class="color-grey documents__wrap-title">Правила посещения</h3>
+              <p class="documents__wrap-sub-title">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт.</p>
+              <div class="row">
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-d-o-c-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#d-o-c-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Правила посещения для групп</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных, за исключением услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">.doc (2,3 Mb)</span></span></a>
+                  </div>
+                </div>
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-p-d-f-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#p-d-f-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Договор лояльности</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">.pdf (2,3 Mb)</span></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="documents__wrap">
+            <div class="container">
+              <h3 class="color-grey documents__wrap-title">Брэндбук</h3>
+              <p class="documents__wrap-sub-title">В дата-центре SDN есть все условия как для размещения отдельных серверов, так и для аренды автономных ячеек под готовый к эксплуатации корпоративный ЦОД или удалённую точку присутствия оператора связи. Работа дата-центра и его персонала осуществляется в круглосуточном режиме без выходных дней, и предполагает оперативность доступа персонала в клиентскую зону в течение 15 минут с момента подачи заявки через сайт.</p>
+              <div class="row">
+                <div class="documents__item js-height col-md-6">
+                  <div class="documents__img-wrap">
+                    <div class="documents__icon-wrap">
+                      <svg class="icon icon-p-d-f-icon ">
+                        <use xlink:href="images/svgsprite/sprite.svg#p-d-f-icon"></use>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="documents__text-wrap">
+                    <div class="documents__title">Фирменный стиль</div>
+                    <div class="documents__sub-title">Предоставление услуг связи по передаче данных для целей передачи голосовой информации</div><a class="doc-btn" href="#"><span class="doc-btn__icon doc-btn__icon--download">
+                        <svg class="icon icon-cloud-download ">
+                          <use xlink:href="images/svgsprite/sprite.svg#cloud-download"></use>
+                        </svg></span><span class="doc-btn__text">Скачать<span class="doc-btn__size">.pdf (2,3 Mb)</span></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="callback callback--documents">
+        <div class="container">
+          <div class="callback__title title-dft">Форма обратной связи</div>
+          <div class="row">
+            <div class="col-lg-6 col-lg-offset-3 text-center callback__sub-title">
+              <p>Если у Вас остались вопросы, вы можете оставить заявку.<br> Мы вам перезвоним и проконсультируем.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+              <form id="callback-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Ваше имя" name="name">
+                </div>
+                <div class="form-group">
+                  <input type="number" placeholder="Номер телефона" name="phone">
+                </div>
+                <div class="form-group text-center">
+                  <button class="btn-dft" type="submit">Перезвонить мне</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="wrapper footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 clearfix"><a class="footer__logo" href=""><img src="images/xelent.svg" width="180" height="55" alt="logo"></a></div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Colocation</a><a class="footer__title" href="#">IaaS</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Dedicated</a></div>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Предложение</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Агентская программма</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Акции</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Отраслевые решения</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Дополнительные услуги</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Пресс-Центр</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Новости</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Блог</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Брендбук</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Фото</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Видео</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Документы</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">О Компании</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Дата-центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Карьера</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Партнеры</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Клиенты</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">История компании</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Руководство</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Контакты</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-xl-push-4 col-md-push-3">
+              <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                    <svg class="icon icon-tw ">
+                      <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                    <svg class="icon icon-g ">
+                      <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                    <svg class="icon icon-ok ">
+                      <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                    <svg class="icon icon-habr ">
+                      <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                    </svg></span></a></div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-xl-pull-4 col-md-pull-6"><a class="copyright__link" href="#">© 2011– 2017 Stackdata.net</a></div>
+            <div class="col-xl-4 col-md-3 text-md-right"><a class="copyright__made-by" href="#">Разработано в<span class="icon-wrap">
+                  <svg class="icon icon-bquadro ">
+                    <use xlink:href="images/svgsprite/sprite.svg#bquadro"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+</html>

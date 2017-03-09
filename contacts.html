@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/ie-detector.js"></script>
+    <script src="js/modernizr.js"></script><!--[if lt IE 7]>  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+  </head>
+  <div class="page-wrapper" id="page-wrapper">
+    <header class="wrapper header" id="header">
+      <div class="header__top-wrap">
+        <div class="container">
+          <div class="header__top-wrapper clearfix"><a class="header__logo" href="index.html"><img src="images/xelent.svg" width="180" height="55" alt="logo"></a>
+            <div class="header__feedback-wrap clearfix">
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Санкт-Петербург</div><a class="header__feedback-link" href="#">+7 812 319-00-04</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Москва</div><a class="header__feedback-link" href="#">8 495 980-60-09</a>
+              </div>
+              <div class="header__feedback-item">
+                <div class="header__feedback-title">Поддержка</div><a class="header__feedback-link" href="#">8 812 319-00-03</a>
+              </div>
+            </div><a class="header__mail" href="#">sales@stackdata.net</a><a class="header__search js-show-search" href="#">
+              <svg class="icon icon-search ">
+                <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+              </svg></a>
+            <div class="header__search-wrap">
+              <button class="header__search-submit" type="submit">
+                <svg class="icon icon-search ">
+                  <use xlink:href="images/svgsprite/sprite.svg#search"></use>
+                </svg>
+              </button>
+              <input class="header__search-input" type="text" placeholder="Поиск"><a class="header__search-wrap-close js-close-search" href="#">
+                <svg class="icon icon-close ">
+                  <use xlink:href="images/svgsprite/sprite.svg#close"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom-wrap">
+        <div class="container"><a class="header__mobile js-show-menu" href="#"><span></span></a>
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Colocation</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">IaaS</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Dedicated</a></li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Предложение</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">О Компании</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">
+                          Виртуальный дата цент
+                          </a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link header__menu-link--dropdown js-mobile-drop" href="#">Пресс-Центр</a>
+                <div class="header__drop">
+                  <div class="container">
+                    <ul class="header__drop-menu">
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Пакетные тарифы IaaS</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Удаленные рабочие места</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Виртуальный дата цент</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">152 ФЗ</a></li>
+                      <li class="header__drop-menu-item"><a class="header__drop-menu-link" href="#">Облачное хранилище</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="header__menu-item"><a class="header__menu-link" href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="page-body" id="page-body">
+      <div class="section-dft">
+        <div class="container">
+          <ul class="breadcrumbs">
+            <li><a class="breadcrumbs__link" href="#">Главная</a></li>
+            <li><a class="breadcrumbs__link" href="#">О Компании</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <h1>Контакты</h1>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 contacts__item">
+              <div class="contacts__title">HR</div><a class="contacts__link-phone" href="#">+7 (812) 765 43 21</a><a class="contacts__link-mail" href="#">hr@xelent.ru</a>
+            </div>
+            <div class="col-lg-4 col-md-6 contacts__item">
+              <div class="contacts__title">Маркетинг и реклама</div><a class="contacts__link-phone" href="#">+7 (812) 765 43 21</a><a class="contacts__link-mail" href="#">hr@xelent.ru</a>
+            </div>
+            <div class="col-lg-4 col-md-6 contacts__item">
+              <div class="contacts__title">По вопросам партнерства</div><a class="contacts__link-phone" href="#">+7 (812) 765 43 21</a><a class="contacts__link-mail" href="#">hr@xelent.ru</a>
+            </div>
+            <div class="col-lg-4 col-md-6 contacts__item">
+              <div class="contacts__title">Пресс-служба</div><a class="contacts__link-phone" href="#">+7 (812) 765 43 21</a><a class="contacts__link-mail" href="#">hr@xelent.ru</a>
+            </div>
+            <div class="col-lg-4 col-md-6 contacts__item">
+              <div class="contacts__title">Закупки</div><a class="contacts__link-phone" href="#">+7 (812) 765 43 21</a><a class="contacts__link-mail" href="#">hr@xelent.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-8">
+                <div class="map__wrapper">
+                  <div class="map__info-wrap">
+                    <div class="map__info-head"><a class="map__head-link js-change-town active" href="#town-1" data-lat="59.963924" data-lng="30.341521"><span>Санкт-петербург</span></a><a class="map__head-link js-change-town" href="#town-2" data-lat="55.743290" data-lng="37.650329"><span>Москва</span></a></div>
+                    <div class="map__info-body">
+                      <div class="map__info-wrapper active" id="town-1">
+                        <div class="map__info-adress">
+                          194362, г. Санкт-Петербург,<br>
+                          Выборгское шоссе, д. 503, корп. 12
+                        </div>
+                        <div class="map__info-title">По общим вопросам</div>
+                        <div class="map__info-inner">
+                          <div class="map__link-wrapper"><a class="map__info-link" href="#">+7 (812) 765 43 21</a></div>
+                        </div>
+                        <div class="map__info-title">Круглосуточная диспетчерская служба sdn.spb</div>
+                        <div class="map__info-inner">
+                          <div class="map__link-wrapper"><a class="map__info-link" href="#">+7 (812) 765 43 21</a></div>
+                          <div class="map__link-wrapper"><a class="map__info-link" href="#">+7 (812) 765 43 21</a><span>(дежурный оператор)</span></div>
+                        </div>
+                        <div class="map__mail-inner">
+                          <div class="map__mail-wrapper"><a class="map__mail-link" href="#">info@xelent.ru</a><span>- по общим вопросам</span></div>
+                        </div>
+                        <div class="map__mail-inner">
+                          <div class="map__mail-wrapper"><a class="map__mail-link" href="#">support@xelent.ru</a><span>- для запросов в диспетчерскую службу</span></div>
+                        </div><a class="map__skype" href="callto:sdn_support">
+                          sdn_support
+                          
+                          </a>
+                      </div>
+                      <div class="map__info-wrapper" id="town-2">
+                        <div class="map__info-adress">
+                          194362, г. Москва,<br>
+                          Выборгское шоссе, д. 503, корп. 12
+                        </div>
+                        <div class="map__info-title">По общим вопросам</div>
+                        <div class="map__info-inner">
+                          <div class="map__link-wrapper"><a class="map__info-link" href="#">+7 (812) 765 43 21</a></div>
+                        </div>
+                        <div class="map__info-title">Круглосуточная диспетчерская служба sdn.spb</div>
+                        <div class="map__info-inner">
+                          <div class="map__link-wrapper"><a class="map__info-link" href="#">+7 (812) 765 43 21</a></div>
+                          <div class="map__link-wrapper"><a class="map__info-link" href="#">+7 (812) 765 43 21</a><span>(дежурный оператор)</span></div>
+                        </div>
+                        <div class="map__mail-inner">
+                          <div class="map__mail-wrapper"><a class="map__mail-link" href="#">info@xelent.ru</a><span>- по общим вопросам</span></div>
+                        </div>
+                        <div class="map__mail-inner">
+                          <div class="map__mail-wrapper"><a class="map__mail-link" href="#">support@xelent.ru</a><span>- для запросов в диспетчерскую службу</span></div>
+                        </div><a class="map__skype" href="callto:sdn_support">
+                          sdn_support
+                          </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="map"></div>
+        </div>
+      </div>
+      <div class="section-dft">
+        <div class="how-get">
+          <div class="container">
+            <h3 class="color-grey text-center how-get__title">Как добраться</h3>
+            <div class="row">
+              <div class="why-us__item clearfix how-get__item">
+                <div class="col-xl-2 col-xl-offset-1 col-lg-3 col-md-4">
+                  <div class="why-us__image-wrap"><img src="upload/howget-1.svg"></div>
+                </div>
+                <div class="col-xl-8 col-lg-9 col-md-8">
+                  <div class="why-us__text">
+                    <p>Наш технологический комплекс расположен вблизи от транспортной развязки Выборгского шоссе и КАД – рядом с Российской Стекольной Компанией. Точное место на карте навигатора Вы можете определить по координатам 60.101141,30.272566.</p>
+                    <p>Добираться к нам удобно как на автомобиле (на территории имеется парковка на 80 мест), так и общественным транспортом (ок. 10 минут от ближайшей станции метро «Парнас»). Расчётное время пути 10 мин от ближайшей станции метро,  60 мин. от аэропорта «Пулково».</p>
+                  </div>
+                </div>
+              </div>
+              <div class="why-us__item clearfix how-get__item">
+                <div class="col-xl-2 col-xl-offset-1 col-lg-3 col-md-4">
+                  <div class="why-us__image-wrap how-get__image"><img src="upload/howget-2.svg"></div>
+                </div>
+                <div class="col-xl-8 col-lg-9 col-md-8">
+                  <div class="why-us__title how-get__item-title">На автомобиле</div>
+                  <div class="why-us__text">
+                    <p>Двигаясь по внешнему кольцу (синяя линия на карте): при съезде с КАД на Парголово выберите первый (небольшой) поворот направо увидите Максидом.</p>
+                    <p>При движении по внутреннему кольцу (фиолетовая линия на карте): поверните на Парголово, далее поверните к Максидому и, проехав парковку Максидома, следуйте прямо по небольшой асфальтированной дороге в направлении, противоположном движению на КАД.</p>
+                    <p>При движении по Выборгскому шоссе (зелёная линия на карте): проехав мост через КАД, выберите первый правый съезд, увидите Prisma, далее поверните налево, на мост к "Максидому". Проехав парковку "Максидома", следуйте прямо по небольшой асфальтированной дороге в направлении, противоположном движению на КАД.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="why-us__item clearfix how-get__item">
+                <div class="col-xl-2 col-xl-offset-1 col-lg-3 col-md-4">
+                  <div class="why-us__image-wrap how-get__image"><img src="upload/howget-3.svg"></div>
+                </div>
+                <div class="col-xl-8 col-lg-9 col-md-8">
+                  <div class="why-us__title how-get__item-title">На общественном транспорте</div>
+                  <div class="why-us__text">
+                    <p>
+                      От метро «Озерки»: автобус № 109; маршрутное такси № 259, 673
+                      От метро «Пр. Просвещения»: автобус: № 75, 104, 433, 434, 436, 444, 435, 567, 690; маршрутное такси:№ 261, 433, 434, 436, 680
+                    </p>
+                    <p>
+                      Ехать до супермаркета "Максидом" (попросите остановиться у Максидома, он будет справа по ходу движения). Далее, не переходя дорогу, пешком мимо "Максидома", через парковку и далее по дороге (желтая линия на карте) 800 метров параллельно КАД, ориентируясь на фасад нашего здания.
+                      
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="excursions excursions--contacts">
+          <div class="container">
+            <div class="excursions__container">
+              <div class="row">
+                <div class="excursions__bg"><img class="about-us__bg-img" src="upload/bitmap_8.jpg" srcset="upload/bitmap_8@2x.jpg 2x, upload/bitmap_8@3x.jpg 3x">
+                  <div class="excursions__ie-fallback" style="background:url(upload/bitmap_8.jpg) center center; background-size: cover;"></div>
+                </div>
+                <div class="col-lg-7 col-lg-offset-1">
+                  <div class="excursions__title">Экскурсия</div>
+                  <div class="excursions__sub-title">Закажите эксурсию в наш ЦОД, обещаем нам есть чем удивить</div>
+                </div>
+                <div class="col-lg-4"><a class="btn-dft" href="#">Перезвонить мне</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="callback callback--contacts">
+          <div class="container">
+            <div class="callback__title title-dft">Написать нам</div>
+            <div class="row">
+              <div class="col-lg-6 col-lg-offset-3 text-center callback__sub-title">
+                <p>Если у Вас остались вопросы, вы можете оставить заявку.<br> Мы вам перезвоним и проконсультируем.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+                <form id="callback-form">
+                  <div class="form-group">
+                    <input type="text" placeholder="Ваше имя" name="name">
+                  </div>
+                  <div class="form-group">
+                    <input type="number" placeholder="Номер телефона" name="phone">
+                  </div>
+                  <div class="form-group">
+                    <select class="js-styler style-select" data-placeholder="Тема сообщения">
+                      <option></option>
+                      <option>Пункт 1</option>
+                      <option>Пункт 2</option>
+                      <option>Пункт 3</option>
+                      <option>Пункт 4</option>
+                      <option>Пункт 5</option>
+                      <option>Пункт 1</option>
+                      <option>Пункт 2</option>
+                      <option>Пункт 3</option>
+                      <option>Пункт 4</option>
+                      <option>Пункт 5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="textarea"></textarea>
+                  </div>
+                  <div class="form-group text-center">
+                    <button class="btn-dft" type="submit">Перезвонить мне</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="wrapper footer" id="footer">
+      <div class="footer__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 clearfix"><a class="footer__logo" href=""><img src="images/xelent.svg" width="180" height="55" alt="logo"></a></div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Colocation</a><a class="footer__title" href="#">IaaS</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Пакетные тарифы IaaS</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Удаленные рабочие места</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Виртуальный дата центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">152 ФЗ</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Облачное хранилище</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Dedicated</a></div>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">Предложение</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Агентская программма</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Акции</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Отраслевые решения</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Дополнительные услуги</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Пресс-Центр</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Новости</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Блог</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Брендбук</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Фото</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Видео</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Документы</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 clearfix">
+              <div class="clearfix"><a class="footer__title" href="#">О Компании</a></div>
+              <ul class="footer__list">
+                <li class="footer__list-item"><a class="footer__item" href="#">Дата-центр</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Карьера</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Партнеры</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Клиенты</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">История компании</a></li>
+                <li class="footer__list-item"><a class="footer__item" href="#">Руководство</a></li>
+              </ul>
+              <div class="clearfix"><a class="footer__title" href="#">Контакты</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-6 col-xl-push-4 col-md-push-3">
+              <div class="socials__social-wrap text-center"><a class="socials__social-link socials__social-link--facebook" href="#"><span>
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="images/svgsprite/sprite.svg#facebook"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--tw" href="#"><span>
+                    <svg class="icon icon-tw ">
+                      <use xlink:href="images/svgsprite/sprite.svg#tw"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--g" href="#"><span>
+                    <svg class="icon icon-g ">
+                      <use xlink:href="images/svgsprite/sprite.svg#g"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--vk" href="#"><span>
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="images/svgsprite/sprite.svg#vk"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--ok" href="#"><span>
+                    <svg class="icon icon-ok ">
+                      <use xlink:href="images/svgsprite/sprite.svg#ok"></use>
+                    </svg></span></a><a class="socials__social-link socials__social-link--habr" href="#"><span>
+                    <svg class="icon icon-habr ">
+                      <use xlink:href="images/svgsprite/sprite.svg#habr"></use>
+                    </svg></span></a></div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-xl-pull-4 col-md-pull-6"><a class="copyright__link" href="#">© 2011– 2017 Stackdata.net</a></div>
+            <div class="col-xl-4 col-md-3 text-md-right"><a class="copyright__made-by" href="#">Разработано в<span class="icon-wrap">
+                  <svg class="icon icon-bquadro ">
+                    <use xlink:href="images/svgsprite/sprite.svg#bquadro"></use>
+                  </svg></span></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/libs.js"></script>
+  <script src="js/common.js"></script>
+  <script src="//localhost:35729/livereload.js"></script>
+</html>
