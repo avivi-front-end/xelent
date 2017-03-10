@@ -155,18 +155,18 @@ p {
     text-align: center;
     color: #fff;
     line-height: 63px;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
     padding: 0 15px;
     white-space: nowrap;
 
     &:not(.disabled):not(.btn-dft--border) {
         &:hover {
             background: #fd3d3d;
-            transition:  0.3s ease;
+            transition: 0.3s ease;
         }
 
         &:active {
-            transition:  0.3s ease;
+            transition: 0.3s ease;
             background: $rouge;
         }
     }
@@ -175,7 +175,7 @@ p {
         background: #dadada;
         color: $pinkish-grey;
     }
-    @media (max-width: $screen-lg-max){
+    @media (max-width: $screen-lg-max) {
         font-size: 17px;
     }
     @media (max-width: $screen-sm-max) {
@@ -190,14 +190,16 @@ p {
         border: solid 1px $pinkish-red;
         color: $pinkish-red;
         min-width: 222px;
-        &:hover{
+
+        &:hover {
             background-color: $pinkish-red;
             border: solid 1px $pinkish-red;
             color: #fff;
-            transition:  0.3s ease;
+            transition: 0.3s ease;
         }
+
         &:active {
-            transition:  0.3s ease;
+            transition: 0.3s ease;
             background: $rouge;
         }
     }
@@ -328,6 +330,7 @@ label.error {
     font-size: 12px;
     line-height: 1.25;
     color: $rouge;
+    margin-top: 9px;
 }
 
 .form-group {
@@ -351,25 +354,36 @@ label.error {
         line-height: 1;
         color: $brownish-grey;
     }
-    label{
+
+    label {
         display: block;
         position: relative;
         line-height: 0;
         // height: 30px;
-        input{
+        input {
             margin: 0;
-            &:focus,&.focus{
-                & ~ .input-placeholder{
+
+            &.focus {
+                & ~ .input-placeholder {
                     font-size: 13px;
                     top: -8px;
-                    transition: .3s ease;
+                    transition: 0.3s ease;
+                }
+            }
+
+            &:focus:not([readonly]) {
+                border-color: $pinkish-grey;
+                & ~ .input-placeholder {
+                    font-size: 13px;
+                    top: -8px;
+                    transition: 0.3s ease;
                 }
             }
         }
     }
 }
 
-.input-placeholder{
+.input-placeholder {
     font-size: 16px;
     font-family: $robotolight;
     color: $pinkish-grey;
@@ -378,7 +392,7 @@ label.error {
     top: 15px;
     left: 0;
     font-weight: 100;
-    transition: .3s ease;
+    transition: 0.3s ease;
 }
 
 blockquote {

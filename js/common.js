@@ -396,6 +396,15 @@ var accardeon = (function() {
 
 var inputFn = (function() {
     var input = $('input');
+    $(window).on('load',function(){
+        input.each(function(){
+            if ($(this).val().length > 0) {
+                $(this).addClass('focus');
+            } else {
+                $(this).removeClass('focus');
+            }
+        })
+    })
     $('input').blur(function() {
         if ($(this).val().length > 0) {
             $(this).addClass('focus');
@@ -506,4 +515,19 @@ var dropdown = (function() {
             $('.header__drop').attr('style', '');
         }
     })
+})();
+
+
+var sectionLoad = (function() {
+    var dataCenter = $('.data-center');
+    $(window).on('scroll load', function() {
+
+        if (dataCenter.length != $('.data-center.visible').length) {
+            dataCenter.each(function() {
+                if ($(this).offset().top < ($(window).outerHeight() + $(window).scrollTop())) {
+                    $(this).addClass('visible');
+                }
+            });
+        };
+    });
 })();

@@ -68,17 +68,24 @@
     .row
         .col-md-4
             .form-group
-                input(type="text" placeholder="Ваше имя" value="Отключен" readonly).disabled
+                label
+                    input(type="text" readonly)
+                    span.input-placeholder Отключен
             .form-group
-                input(type="text" placeholder="Ваше имя")
+                label
+                    input(type="text")
+                    span.input-placeholder Номер телефона
             .form-group
-                label.form-group__label Готов для ввода
-                input(type="text" placeholder="Сюда вводить текст")
-                label.form-group__helper Тут можно будет подсказать что-нибудь.
+                label
+                    input(type="text")
+                    label#name-error.error(for='name') Вы ввели неверные данные. Постарайтесь больше не косячить. 
+                    span.input-placeholder Ваше имя
+                    
             .form-group
-                label.form-group__label.error Ошибка
-                input(type="text" placeholder="Ваше имя")
-                label.error Тут можно будет подсказать что-нибудь.
+                label
+                    input(type="text" value="text")
+                    label#name-error.error(for='name' ) Вы ввели неверные данные. Постарайтесь больше не косячить. 
+                    span.input-placeholder Номер телефона        
         .col-md-6.col-md-offset-2
             .clearfix
                 .testing__params-slider
