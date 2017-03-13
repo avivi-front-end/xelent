@@ -363,8 +363,8 @@ function initMap(position) {
     });
     var myPlacemark = new ymaps.Placemark(position, {}, {
         iconLayout: 'default#image',
-        iconImageHref: 'images/marker.png',
-        iconImageOffset: [-38, -50],
+        iconImageHref: 'images/svg/marker.svg',
+        iconImageOffset: [-38, -102],
         iconImageSize: [77, 102],
     });
     myMap.geoObjects.add(myPlacemark);
