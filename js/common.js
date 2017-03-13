@@ -303,9 +303,9 @@ var mapFn = (function() {
     var $changeTown = $('.js-change-town');
     var $townWrap = $('.map__info-wrapper');
 
-
     if ($map.length > 0) {
-        $('body').append('<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4iiu69HGNYjeWowMnGtdghML_vNg5M_Y&callback=firstShow"></script>');
+        $('body').prepend('<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&onload=firstShow"></script>');
+        // ymaps.ready(init);
     };
 
     $changeTown.on('click', function(e) {
@@ -331,10 +331,6 @@ var mapFn = (function() {
 
         initMap(position);
     });
-
-
-
-
 })();
 
 function firstShow() {
@@ -351,28 +347,27 @@ function firstShow() {
 
 function initMap(position) {
     var townlatlng = position;
-    var map;
-    var myLatlng = new google.maps.LatLng(townlatlng[0], townlatlng[1]);
 
     var newLat = townlatlng[1];
 
     if ($(window).outerWidth() > 767) {
-        var changer = parseInt(townlatlng[1].split('.')[1]) - 750;
+        var changer = parseInt(townlatlng[1].split('.')[1]) - 1750;
         var newLat = townlatlng[1].replace(townlatlng[1].split('.')[1], changer)
     }
+    $('#map').html('');
 
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: new google.maps.LatLng(townlatlng[0], newLat),
-        zoom: 17,
-        scrollwheel: false,
-    });
-    var marker = new google.maps.Marker({
-        icon: new google.maps.MarkerImage('images/svg/marker.svg', new google.maps.Size(77, 102)),
-        position: myLatlng,
-    });
-    marker.setMap(map);
 
-    google.maps.event.trigger(map, 'resize');
+    var myMap = new ymaps.Map('map', {
+        center: [townlatlng[0], newLat],
+        zoom: 17
+    });
+    var myPlacemark = new ymaps.Placemark(position, {}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'images/marker.png',
+        iconImageOffset: [-38, -50],
+        iconImageSize: [77, 102],
+    });
+    myMap.geoObjects.add(myPlacemark);
 };
 
 
@@ -396,8 +391,8 @@ var accardeon = (function() {
 
 var inputFn = (function() {
     var input = $('input');
-    $(window).on('load',function(){
-        input.each(function(){
+    $(window).on('load', function() {
+        input.each(function() {
             if ($(this).val().length > 0) {
                 $(this).addClass('focus');
             } else {
